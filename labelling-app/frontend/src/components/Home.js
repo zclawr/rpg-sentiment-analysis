@@ -1,20 +1,16 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
+import { GoogleSpreadsheet } from 'google-spreadsheet';
 
-const EmotionRating = ({ emotion, onChange }) => (
+const EmotionRating = ({ emotion, idx, onChange }) => (
   <div style={{ textAlign: 'right' }}>
     <p>
       {emotion}:
-      {Array.from({ length: 5 }, (_, index) => (
-        <label key={index} style={{ marginRight: '10px' }}>
           <input
-            type="radio"
+            id={'emotion' + idx}
+            type="number"
             name={emotion}
-            value={index + 1}
             onChange={onChange}
           />
-          {index + 1}
-        </label>
-      ))}
     </p>
   </div>
 );
@@ -33,8 +29,20 @@ export default function Home() {
     lust: ''
   });
 
+  const [selected, setSelected] = useState(1)
+
   const handleChange = (e) => {
     setObservationRatings({ ...observationRatings, [e.target.name]: e.target.value });
+    console.log(selected)
+    if(selected === 10){
+      handleSubmit(e)
+      setSelected(1)
+      return
+    }
+    else{
+      setSelected(selected + 1)
+      document.getElementById('emotion' + selected).focus()
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -79,8 +87,8 @@ export default function Home() {
   return (
     <div style={{ maxWidth: '400px', margin: '20px auto' }}>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-        {emotions.map((emotion) => (
-          <EmotionRating key={emotion} emotion={emotion.toLowerCase()} onChange={handleChange} />
+        {emotions.map((emotion, idx) => (
+          <EmotionRating key={emotion} idx={idx} emotion={emotion.toLowerCase()} onChange={handleChange} />
         ))}
         <button type="submit" style={{ padding: '10px', fontSize: '16px', backgroundColor: '#007bff', color: 'white', border: 'none', cursor: 'pointer' }}>
           Submit
