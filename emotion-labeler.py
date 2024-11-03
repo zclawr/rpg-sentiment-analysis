@@ -69,7 +69,7 @@ def main():
     
     # Load data
     try:
-        all_data = load_movie_data('/Users/shawnpana/Documents/GitHub/rpg-sentiment-analysis/movie_script_data.csv')
+        all_data = load_movie_data('/Users/zachl/Desktop/Satur9/OrganRegistry/OrganRegistryWeb/python-labelling/movie_script_data.csv')
     except FileNotFoundError:
         print("Error: movie_script_data.csv not found!")
         return
