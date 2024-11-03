@@ -42,7 +42,7 @@ export default function Home() {
   const output = useRef(undefined)
 
   useEffect(() => {
-    Papa.parse("http://localhost:3000/star-wars.csv", {
+    Papa.parse("http://localhost:3000/movie_script_data.csv", {
       download: true,
       complete: function(results) {
         csvRef.current = results
