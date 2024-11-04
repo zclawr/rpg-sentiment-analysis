@@ -44,6 +44,8 @@ In the plot, a line represents an observation. We notice from the plot that calm
 
 In terms of pre-processing, we plan the carry out the following pipeline for our sentiment analysis:
 
+[Open the Jupyter Notebook](Milestone2.ipynb)
+
 Sentiment Analysis Pipeline:
 - Pre-processing
   - convert the dialogue to lowercase
