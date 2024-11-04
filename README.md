@@ -16,8 +16,8 @@ Sentiment Analysis Pipeline:
 - Pre-processing
   - convert the dialogue to lowercase
   - pass the dialogue into a tokenizer to get an array of "tokens", which are the individual strings present in the dialogue
-  - limitize each token, standardizing the tense and plurality of the token (i.e. "feet" -> "foot" and "killed" -> "kill")
+  - lemmatize each token, standardizing the tense and plurality of the token (i.e. "feet" -> "foot" and "killed" -> "kill")
   - remove "stop words", which are common words that add no meaning to sentiment (i.e. "and", "but", "is")
   - convert raw text into numerical information via feature extraction (using feature extraction techinques such as "bag of words" and "TF-IDF")
-    - in our case, we would be using TF-IDF. TF-IDF weighs the importance of a given word relative to the body of text
-  - So, we would be training our model with our X_train and X_test being the outputs of the TF-IDF vectorizer, and our Y_train and y_test are the respective values for the 10 emotions.
+    - in our case, we would be using TF-IDF. TF-IDF weighs the importance of a given word relative to the body of text.
+  - So, we would be training our model with our X_train and X_test being the outputs of the TF-IDF vectorizer, and our y_train and y_test are the respective values for the 10 emotions.
