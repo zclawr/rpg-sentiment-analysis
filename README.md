@@ -12,7 +12,9 @@ Candidate datasets, ranked in order of most to least promising:
 The dataset contains the scripts for Star Wars episodes 4-6, with 'character' and 'dialogue' columns, where each observation is a line delivered by a character in one of the films. The dataset is unlabeled for sentiment analysis. 
 
 ## Data Exploration
+
 [Open the Jupyter Notebook](Milestone2.ipynb)
+
 Sentiment Analysis Pipeline:
 - Pre-processing
   - convert the dialogue to lowercase
