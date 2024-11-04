@@ -12,7 +12,7 @@ Candidate datasets, ranked in order of most to least promising:
 The dataset contains the scripts for Star Wars episodes 4-6, with 'character' and 'dialogue' columns, where each observation is a line delivered by a character in one of the films. The dataset is unlabeled for sentiment analysis. 
 
 ## Data Exploration
-Note that the data we are using in our Jupyter notebook and in the following exploration comes from ```combined-labels.csv```, which can be found in the root folder of this repo.
+Note that the data we are using in our Jupyter notebook and in the following exploration comes from [combined-labels.csv](combined-labels.csv), which can be found in the root folder of this repo.
 Our labeled data consists of 586 observations. In terms of missing data, please note that we have roughly 5000 lines of unlabeled dialogue, of which we are working through hand-labeling. Thus, the 586 observations we are exploring here is simply a subset of our data. Of these labeled observations, each observation has a valid integer from 0-10 for each of the 10 emotion categories, and therefore there is no missing data within these 586 observations. The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters. 
 ![word_cloud](https://github.com/user-attachments/assets/e9e8929a-cbb0-4c2d-affd-db70ee151d46)
 
