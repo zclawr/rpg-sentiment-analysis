@@ -56,3 +56,26 @@ Sentiment Analysis Pipeline:
   - convert raw text into numerical information via feature extraction (using feature extraction techinques such as "bag of words" and "TF-IDF")
     - in our case, we would be using TF-IDF. TF-IDF weighs the importance of a given word relative to the body of text.
   - So, we would be training our model with our X_train and X_test being the outputs of the TF-IDF vectorizer, and our y_train and y_test are the respective values for the 10 emotions.
+  - apply min-max normalization to each feature so that our output is a confidence level between 0 and 1.
+
+## Preprocessing, Training, and Testing our First Model
+We previously tried to use Naive Bayes as our first model. Because our data is sparse, has multiple output classes, and a large range of scores, we decided to treat the data as a regression problem instead of a classification problem since we sought to see the strength of an emotion in a sentence (i.e. a confidence level) rather than a binary true or false output.
+
+After preprocessing and training our first model, we compared evaluated our model by performing k-fold cross validation, comparing training and testing mses, and creating a fitting graph for each emotion.
+
+<img width="508" alt="k-fold cross validation and training/testing mse" src="https://github.com/user-attachments/assets/dc025e67-90ce-4b76-9bba-c6a6f161b7e4">
+
+![joy](https://github.com/user-attachments/assets/8c341efd-e669-4c05-8c7d-858270e3ac95)
+![sadness](https://github.com/user-attachments/assets/b386ec29-c218-4751-a66a-dae8b9488575)
+![disgust](https://github.com/user-attachments/assets/19639c56-1d8a-46e8-9011-47fd0c7c9a22)
+![fear](https://github.com/user-attachments/assets/48ef9086-827f-4a8c-805c-6548339d491b)
+![anger](https://github.com/user-attachments/assets/a3bf2b7e-367b-4746-8e6e-964f57cd0864)
+![surprise](https://github.com/user-attachments/assets/e0ca025c-d96c-499c-ac77-4b2e594b7ee7)
+![calmness](https://github.com/user-attachments/assets/087963ce-dde6-42f4-baa9-9188902675e1)
+![confusion](https://github.com/user-attachments/assets/c26fff43-da71-48dd-ac26-9a6d68c6f17b)
+![anxiety](https://github.com/user-attachments/assets/d91dfdfa-8f7c-4961-8eda-02b62d3b5d0a)
+![lust](https://github.com/user-attachments/assets/f966ed35-7943-4f7c-bb94-7b84a25ad963)
+
+The model seems to underperform for the majority of the emotions, with there being some minor successes with anger, surprise, and anxiety. For our next models, we plan on exploring more regression models, but we do believe that using Random Forest Regression is a great decision since it yields the desired output.
+
+Conclusion of our first model: Our first model underperforms, but this was expected since we have a sparse dataset that we are expanding as we move forward and our high scoring range for each emotion. We plan on performing further optimizations/enchancements such as oversampling and fine-tuning the Random Forest Regression parameters (i.e. max depth and dimensionality). We are considering looking into dimensional reduction with PCA, but we plan on doing so after learning it in class.
