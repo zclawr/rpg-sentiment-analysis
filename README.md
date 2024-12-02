@@ -89,8 +89,18 @@ This is our training and testing MSEs:
 
 Compared to the last model, we were able to get the testing MSE smaller than the training MSE for some emotions, but not all.
 
-Here are our fitting graphs for each emotion:
+Based on feedback on our Milestone 3 submission, we realized that our fitting graphs were not properly formatted. Thus, we referenced lecture slides and formatted our fitting graphs as learning curves. Thus, here are our fitting graphs for each emotion:
 
+![plots](https://github.com/user-attachments/assets/756dbd4f-34f2-4494-898f-5ee17c3baf08)
+![download (3)](https://github.com/user-attachments/assets/bdfeeffe-59d5-4ca3-a80d-84e1580f8ab6)
+![download (4)](https://github.com/user-attachments/assets/075441d3-0086-489f-ba11-7c412af71379)
+![download (5)](https://github.com/user-attachments/assets/8929f293-3c3c-40d6-ab5a-cf44b3684e22)
+![download (6)](https://github.com/user-attachments/assets/98235c0f-a656-4270-80d3-15311cc87f26)
+![download (7)](https://github.com/user-attachments/assets/a2d5dc1e-202c-49b3-84f5-fd018f2cbc4b)
+![download (8)](https://github.com/user-attachments/assets/13bc2bfa-732d-45b4-a64f-2ef6a56b3598)
+![download (9)](https://github.com/user-attachments/assets/84d4e4b9-af54-4e28-8e04-212c7017acca)
+![download (10)](https://github.com/user-attachments/assets/605416e9-6aff-44b3-8d22-c24b82bba375)
+![download (11)](https://github.com/user-attachments/assets/730b5168-78a9-411a-b5f9-bcce5e1b660b)
 
 For our next model, we still want to work on getting our model to not overfit the data. We are thinking of exploring a support vector regressor or a multi-layer perceptron regressor for our next model since these types of models are most commonly used for sentiment analysis.
 
