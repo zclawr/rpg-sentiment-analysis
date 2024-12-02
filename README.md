@@ -1,4 +1,4 @@
-# rpg-sentiment-analysis
+<img width="470" alt="Screenshot 2024-12-01 at 8 06 20 PM" src="https://github.com/user-attachments/assets/aae76078-4e30-48ea-a5e9-6b38c1e9172d"># rpg-sentiment-analysis
 
 ## Abstract
 We intend to develop an unsupervised sentiment analysis model with output classes corresponding to novel and fantastical sentiments that align with a fantasy text role-playing game world, for use in-game with non-playable character dialogue. Specifically, we intend on classifying user text input with the following classes: joy, sadness, disgust, fear, anger, surprise, calmness, confusion, anxiety, and lust. Instead of using general datasets that contain contemporary human text (e.g. the popular Twitter Sentiment Analysis dataset), we intend to use datasets containing fictional movie scripts catered specifically to the roleplay environment we want to enforce in our game. We believe that limiting our dataset in this way could enforce linguistic habits and principles within the game world, thereby increasing the player's immersion. Upon the player entering in text to address the non-playable character, the model will analyze the text for its sentiment and, based on this sentiment, select responses from a set of pre-written dialogue options.
@@ -79,3 +79,24 @@ After preprocessing and training our first model, we compared evaluated our mode
 The model seems to underperform for the majority of the emotions, with there being some minor successes with anger, surprise, and anxiety. For our next models, we plan on exploring more regression models, but we do believe that using Random Forest Regression is a great decision since it yields the desired output.
 
 Conclusion of our first model: Our first model underperforms, but this was expected since we have a sparse dataset that we are expanding as we move forward and our high scoring range for each emotion. We plan on performing further optimizations/enchancements such as oversampling and fine-tuning the Random Forest Regression parameters (i.e. max depth and dimensionality). We are considering looking into dimensional reduction with PCA, but we plan on doing so after learning it in class.
+
+## Training and Testing our Second Model
+One downside to our last model was that our RandomForestRegressor took very long to train and was overfitting our small data. This was expected since we didn't do any hyperparameter tuning. For our second model, we used XGBoost for its efficiency and hyperparameter tuning capabilities. For our tree method, we used "exact" because we have a small dataset and we want to emphasize accuracy rather than speed. We specified a max_depth, introduced L2 regularization, and reduced the learning rate from default 0.3 to 0.01 in order to mitigate overfitting.
+
+This is our training and testing MSEs:
+
+<img width="470" alt="Screenshot 2024-12-01 at 8 06 31 PM" src="https://github.com/user-attachments/assets/220e8c16-7809-4c35-9abb-8a7e25231e00">
+
+Compared to the last model, we were able to get the testing MSE smaller than the training MSE for some emotions, but not all.
+
+Here are our fitting graphs for each emotion:
+
+
+For our next model, we still want to work on getting our model to not overfit the data. We are thinking of exploring a support vector regressor or a multi-layer perceptron regressor for our next model since these types of models are most commonly used for sentiment analysis.
+
+Conclusion of our second model: Our second model underperforms, but not as much as our first model. In order to improve the performance of our model, we could possibly tune different hyperparameters such as min_child_weight and subsample. A better option would be to explore other a support vector regressor or a multi-layer perceptron regressor, comparing which model performs the best.
+
+Note: Predictions of correct and FP and FN from your test dataset are included at the end of the Milestone4 notebook. Here are the screenshots of the outputs. We have 10 emotions, but this process for finding predictions of correct and FP and FN from the test dataset is the same for each emotion. In this case, we will be using the "Surprise" emotion.
+<img width="1149" alt="Screenshot 2024-12-01 at 9 54 50 PM" src="https://github.com/user-attachments/assets/b4a8332d-2a92-4a58-b03a-1d04625c7971">
+<img width="1149" alt="Screenshot 2024-12-01 at 9 55 09 PM" src="https://github.com/user-attachments/assets/9b1bb6a5-9e74-41d4-bb1b-434ee410a715">
+<img width="1149" alt="Screenshot 2024-12-01 at 9 55 24 PM" src="https://github.com/user-attachments/assets/6b78d12b-ab0a-498a-8aec-b913dde42d61">
