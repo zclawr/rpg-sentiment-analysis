@@ -81,6 +81,8 @@ The model seems to underperform for the majority of the emotions, with there bei
 Conclusion of our first model: Our first model underperforms, but this was expected since we have a sparse dataset that we are expanding as we move forward and our high scoring range for each emotion. We plan on performing further optimizations/enchancements such as oversampling and fine-tuning the Random Forest Regression parameters (i.e. max depth and dimensionality). We are considering looking into dimensional reduction with PCA, but we plan on doing so after learning it in class.
 
 ## Training and Testing our Second Model
+[Open the Jupyter Notebook](Milestone4.ipynb)
+
 One downside to our last model was that our RandomForestRegressor took very long to train and was overfitting our small data. This was expected since we didn't do any hyperparameter tuning. For our second model, we used XGBoost for its efficiency and hyperparameter tuning capabilities. For our tree method, we used "exact" because we have a small dataset and we want to emphasize accuracy rather than speed. We specified a max_depth, introduced L2 regularization, and reduced the learning rate from default 0.3 to 0.01 in order to mitigate overfitting.
 
 This is our training and testing MSEs:
