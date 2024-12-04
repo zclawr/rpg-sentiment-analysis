@@ -65,11 +65,11 @@ def main():
     MOVIES = ['The Return of the King', 'The Two Towers', 'The Fellowship of the Ring',
               'SW_EpisodeVI', 'SW_EpisodeV', 'SW_EpisodeIV']
     
-    OUTPUT_FILE = 'emotion_labels.csv'
+    OUTPUT_FILE = './combined_labels.csv'
     
     # Load data
     try:
-        all_data = load_movie_data('/Users/zachl/Desktop/Satur9/OrganRegistry/OrganRegistryWeb/python-labelling/movie_script_data.csv')
+        all_data = load_movie_data('./movie_script_data.csv')
     except FileNotFoundError:
         print("Error: movie_script_data.csv not found!")
         return

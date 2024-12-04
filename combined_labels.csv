@@ -585,3 +585,94 @@ Line,Movie,Character,Dialogue,Joy,Sadness,Disgust,Fear,Anger,Surprise,Calmness,C
 311,SW_EpisodeV,LEIA,Closer?,0,0,0,4,0,8,0,9,7,0
 312,SW_EpisodeV,THREEPIO,Closer?!,0,0,0,10,0,9,0,9,5,0
 313,SW_EpisodeV,THREEPIO,"Oh, this is suicide!",0,7,0,8,0,9,0,3,9,0
+314,SW_EpisodeVI,HAN,"Now don't get jittery, Luke. There are a lot of command ships. Keep your distance though, Chewie, but don't look like you're trying to keep your distance.",0,0,0,5,0,0,5,0,10,0
+315,SW_EpisodeVI,HAN,I don't know. Fly casual.,0,0,0,0,0,0,7,10,5,0
+316,SW_EpisodeVI,LUKE,I'm endangering the mission. I shouldn't have come.,0,8,0,8,3,0,0,0,10,0
+314,SW_EpisodeVI,HAN,"Now don't get jittery, Luke. There are a lot of command ships. Keep your distance though, Chewie, but don't look like you're trying to keep your distance.",0,5,8,10,3,0,5,0,10,0
+317,SW_EpisodeVI,HAN,"It's your imagination, kid. Come on. Let's keep a little optimism here.",7,0,0,0,3,0,3,0,5,0
+318,SW_EpisodeVI,VADER,Where is that shuttle going?,0,0,0,0,0,0,0,10,0,0
+319,SW_EpisodeVI,PIETT,"Shuttle Tydirium, what is your cargo and destination?",0,0,0,0,0,0,0,6,0,0
+320,SW_EpisodeVI,PILOT VOICE,Parts and technical crew for the forest moon.,0,0,0,0,0,0,10,0,0,0
+321,SW_EpisodeVI,VADER,Do they have a code clearance?,0,0,0,0,0,0,0,6,0,0
+322,SW_EpisodeVI,PIETT,"It's an older code, sir, but it checks out. I was about to clear them.",0,0,0,7,0,0,0,0,8,0
+323,SW_EpisodeVI,PIETT,Shall I hold them?,5,0,0,0,0,0,0,9,0,0
+324,SW_EpisodeVI,VADER,No. Leave them to me. I will deal with them myself.,0,7,9,0,10,0,3,0,0,0
+325,SW_EpisodeVI,PIETT,"As you wish, my lord. Carry on.",6,3,0,6,0,0,5,0,7,0
+326,SW_EpisodeVI,HAN,"They're not goin' for it, Chewie.",0,6,0,3,4,0,1,0,2,0
+327,SW_EpisodeVI,CONTROLLER,"Shuttle Tydirium, deactivation of the shield will commence immediately. Follow your present course.",0,8,0,3,0,0,0,0,5,0
+328,SW_EpisodeVI,HAN,Okay! I told you it was gonna work. No problem.,10,0,0,0,0,0,10,0,0,0
+329,SW_EpisodeVI,THREEPIO,"Oh, I told you it was dangerous here.",0,5,0,8,0,4,0,0,7,0
+330,SW_EpisodeVI,LEIA,Shall we try and go around?,3,0,0,3,0,0,0,8,5,0
+331,SW_EpisodeVI,HAN,It'll take time. This whole party'll be for nothing if they see us.,0,10,5,7,0,0,0,0,7,0
+332,SW_EpisodeVI,HAN,Chewie and I will take care of this. You stay here.,0,8,0,0,6,0,0,0,4,0
+333,SW_EpisodeVI,LUKE,"Quietly, there might be more of them out there.",0,6,0,9,0,0,0,7,10,0
+334,SW_EpisodeVI,HAN,Hey... it's me.,0,0,0,0,0,0,10,0,0,0
+335,SW_EpisodeVI,SCOUT #1,Go for help! Go!,10,10,0,10,10,10,0,0,10,0
+336,SW_EpisodeVI,LUKE,Great. Come on.,10,0,0,6,7,7,8,0,0,0
+337,SW_EpisodeVI,LEIA,Over there! Two more of them!,7,0,0,8,7,10,0,0,7,0
+338,SW_EpisodeVI,LUKE,"I see them. Wait, Leia!",0,4,4,10,2,8,2,0,9,0
+339,SW_EpisodeVI,LUKE,Quick! Jam their comlink. Center switch!,0,0,0,4,5,7,0,0,7,0
+340,SW_EpisodeVI,HAN,"Hey, wait! Ahhh!",2,4,0,8,6,5,0,0,4,0
+341,SW_EpisodeVI,LUKE,Move closer!,0,0,0,0,3,4,0,0,3,0
+342,SW_EpisodeVI,LUKE,Get alongside that one!,0,0,0,3,0,0,0,0,3,0
+343,SW_EpisodeVI,LUKE,Get him!,0,0,0,0,8,0,0,0,0,0
+344,SW_EpisodeVI,LUKE,Keep on that one! I'll take these two!,0,0,0,4,7,0,0,0,4,0
+345,SW_EpisodeVI,THREEPIO,"Oh, General Solo, somebody's coming. Oh!",4,6,2,7,0,3,0,0,8,0
+346,SW_EpisodeVI,HAN,Luke! Where's Leia?,0,0,0,7,3,4,0,10,7,0
+347,SW_EpisodeVI,LUKE,What? She didn't come back?,0,3,0,3,0,7,0,10,8,0
+348,SW_EpisodeVI,HAN,I thought she was with you.,0,5,0,3,0,8,0,10,7,0
+349,SW_EpisodeVI,LUKE,We got separated.,0,10,0,0,0,0,8,0,7,0
+350,SW_EpisodeVI,LUKE,"Hey, we better go look for her.",0,7,0,7,6,0,7,0,6,0
+351,SW_EpisodeVI,HAN,Take the squad ahead. We'll meet at the shield generator at 0300.,2,0,0,4,1,1,7,0,3,0
+352,SW_EpisodeVI,LUKE,"Come on, Artoo. We'll need your scanners.",3,0,0,2,0,1,5,0,2,0
+353,SW_EpisodeVI,THREEPIO,"Don't worry, Master Luke. We know what to do.",3,0,0,1,0,1,7,0,2,0
+354,SW_EpisodeVI,THREEPIO,And you said it was pretty here. Ugh!,1,2,6,1,3,2,1,2,2,0
+355,SW_EpisodeVI,LEIA,Cut it out!,0,0,8,1,5,2,1,1,3,0
+356,SW_EpisodeVI,LEIA,I'm not gonna hurt you.,2,0,0,1,0,1,7,0,2,0
+357,SW_EpisodeVI,LEIA,"Well, looks like I'm stuck here. Trouble is, I don't know where here is.",3,4,0,2,1,2,4,5,3,0
+358,SW_EpisodeVI,LEIA,"Well, maybe you can help me. Come on, sit down.",3,0,0,1,0,1,6,0,2,0
+359,SW_EpisodeVI,LEIA,I promise I won't hurt you. Now come here.,2,0,0,1,0,1,7,0,2,0
+360,SW_EpisodeVI,LEIA,All right. You want something to eat?,2,0,0,1,0,1,7,0,1,0
+361,SW_EpisodeVI,LEIA,That's right. Come on. Hmmm?,2,0,0,1,0,1,7,0,1,0
+362,SW_EpisodeVI,LEIA,"Look, it's a hat. It's not gonna hurt you. Look. You're a jittery little thing, aren't you?",3,0,0,1,1,2,6,1,3,0
+363,SW_EpisodeVI,LEIA,What is it?,2,0,0,1,0,1,7,0,1,0
+364,SW_EpisodeVI,SCOUT #l,"Freeze! Come on, get up!",2,0,0,4,3,2,5,1,3,0
+365,SW_EpisodeVI,SCOUT #1,Go get your ride and take her back to base.,2,0,0,1,0,1,7,0,2,0
+366,SW_EpisodeVI,SCOUT #2,"Yes, sir.",1,0,0,0,0,0,8,0,1,0
+367,SW_EpisodeVI,LEIA,"Come on, let's get outta here.",2,0,0,1,0,1,7,0,2,0
+368,SW_EpisodeVI,GUARD,Halt! The Emperor does not wish to be disturbed at the moment.,1,0,0,2,3,1,6,2,3,0
+369,SW_EpisodeVI,VADER,"The Emperor will see me, now!",3,0,0,4,4,2,5,2,3,0
+370,SW_EpisodeVI,GUARD,"The Emperor will see you, now.",2,0,0,3,4,1,6,2,2,0
+371,SW_EpisodeVI,EMPEROR,I told you to remain on the command ship.,3,0,0,2,5,1,6,2,3,0
+372,SW_EpisodeVI,VADER,A small Rebel force has penetrated the shield and landed on Endor.,2,1,0,3,4,2,5,2,3,0
+373,SW_EpisodeVI,EMPEROR,"Yes, I know.",2,0,0,1,0,1,8,0,1,0
+374,SW_EpisodeVI,VADER,My son is with them.,3,4,0,2,2,1,6,2,3,0
+375,SW_EpisodeVI,EMPEROR,Are you sure?,2,0,0,1,0,1,6,7,3,0
+376,SW_EpisodeVI,VADER,"I have felt him, my Master.",3,2,0,2,2,1,6,2,3,0
+377,SW_EpisodeVI,EMPEROR,"Strange, that I have not. I wonder if your feelings on this matter are clear, Lord Vader.",3,2,0,3,4,2,5,4,4,0
+378,SW_EpisodeVI,VADER,"They are clear, my Master.",3,0,0,2,1,1,7,0,2,0
+379,SW_EpisodeVI,EMPEROR,Then you must go to the Sanctuary Moon and wait for them.,2,0,0,1,2,1,7,1,2,0
+380,SW_EpisodeVI,VADER,He will come to me?,3,0,0,2,1,1,6,8,3,0
+381,SW_EpisodeVI,EMPEROR,I have foreseen it. His compassion for you will be his undoing. He will come to you and then you will bring him before me.,3,2,0,3,4,2,6,3,4,0
+382,SW_EpisodeVI,VADER,As you wish.,2,0,0,1,0,1,8,0,1,0
+383,SW_EpisodeVI,HAN,Luke! Luke!,3,0,0,4,5,2,5,3,4,0
+384,SW_EpisodeVI,THREEPIO,"Oh, Master Luke.",3,0,0,2,1,1,7,1,2,0
+385,SW_EpisodeVI,LUKE,There's two more wrecked speeders back there. And I found this.,3,0,0,2,2,1,6,2,3,0
+386,SW_EpisodeVI,THREEPIO,I'm afraid that Artoo's sensors can find no trace of Princess Leia.,3,8,0,7,3,1,5,6,8,0
+387,SW_EpisodeVI,HAN,I hope she's alright.,3,7,0,4,2,1,6,4,5,0
+388,SW_EpisodeVI,HAN,"What, Chewie? What? Chewie!",3,0,0,5,4,8,5,8,4,0
+389,SW_EpisodeVI,HAN,"Hey, I don't get it.",2,0,0,3,3,2,4,10,4,0
+390,SW_EpisodeVI,HAN,"Nah, it's just a dead animal, Chewie.",1,2,3,1,0,2,7,1,1,0
+391,SW_EpisodeVI,LUKE,"Chewie, wa-wait! Don't!",0,1,0,6,0,4,1,3,7,0
+392,SW_EpisodeVI,HAN,"Nice work. Great, Chewie! Great! Always thinking with your stomach.",3,0,0,1,1,2,7,1,2,0
+393,SW_EpisodeVI,LUKE,"Will you take it easy? Let's just figure out a way to get out of this thing. Han, can you reach my lightsaber?",3,2,0,3,2,3,6,4,5,0
+394,SW_EpisodeVI,HAN,"Yeah, sure.",2,0,0,1,0,1,8,0,1,0
+395,SW_EpisodeVI,THREEPIO,"Artoo, I'm not sure that's such a good idea. It's a very long dro-o-op!!",3,1,0,7,3,5,4,6,8,0
+396,SW_EpisodeVI,HAN,Wha--? Hey! Point that thing someplace else.,3,0,0,5,4,3,5,4,5,0
+397,SW_EpisodeVI,HAN,Hey!,5,0,4,2,7,9,2,3,7,0
+398,SW_EpisodeVI,LUKE,"Han, don't. It'll be all right.",3,1,0,2,1,2,7,2,3,0
+399,SW_EpisodeVI,LUKE,"Chewie, give 'em your crossbow.",2,0,0,1,1,1,8,1,2,0
+400,SW_EpisodeVI,THREEPIO,"Oh, my head. Oh, my goodness!",3,5,0,4,2,6,5,4,6,0
+401,SW_EpisodeVI,LUKE,Do you understand anything they're saying?,3,0,0,2,1,3,6,8,5,0
+402,SW_EpisodeVI,THREEPIO,"Oh, yes, Master Luke! Remember that I am fluent in over six million forms of communication.",3,0,0,1,1,2,7,2,3,0
+403,SW_EpisodeVI,HAN,What are you telling them?,3,0,0,2,1,3,6,8,5,0
