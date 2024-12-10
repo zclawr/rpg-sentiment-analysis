@@ -2131,7 +2131,7 @@ Line,Movie,Character,Dialogue,Joy,Sadness,Disgust,Fear,Anger,Surprise,Calmness,C
 281,SW_EpisodeVI,LUKE,"Ask me again sometime.",3,0,0,1,0,2,7,2,3,0
 282,SW_EpisodeVI,HAN,"Luke.",1,0,0,1,0,2,6,2,3,0
 283,SW_EpisodeVI,LUKE,"Hi, Han... Chewie.",4,0,0,1,0,2,7,1,2,0
-284,SW_EpisodeVI,THREEPIO,"\"Exciting\" is hardly the word I would use.",2,0,0,3,0,3,5,4,6,0
+284,SW_EpisodeVI,THREEPIO,"Exciting is hardly the word I would use.",2,0,0,3,0,3,5,4,6,0
 285,SW_EpisodeVI,HAN,"Look. I want you to take her. I mean it. Take her. You need all the help you can get. She's the fastest ship in the fleet.",3,1,0,4,1,3,5,3,6,0
 286,SW_EpisodeVI,LANDO,"All right, old buddy. You know, I know what she means to you. I'll take good care of her. She-she won't get a scratch. All right?",4,0,0,2,0,3,6,2,4,0
 287,SW_EpisodeVI,HAN,"Right. I got your promise now. Not a scratch.",3,0,0,2,1,2,6,3,4,0
