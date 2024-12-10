@@ -5,96 +5,96 @@ Line,Movie,Character,Dialogue,Joy,Sadness,Disgust,Fear,Anger,Surprise,Calmness,C
 4,SW_EpisodeIV,THREEPIO,What's that?,0,4,1,6,3,9,1,8,5,0
 5,SW_EpisodeIV,THREEPIO,I should have known better than to trust the logic of a half-sized thermocapsulary dehousing assister...,2,5,3,4,7,3,1,6,7,0
 6,SW_EpisodeIV,LUKE,Hurry up! Come with me! What are you waiting for?! Get in gear!,7,2,1,3,9,5,0,4,6,0
-7,SW_EpisodeIV,THREEPIO,Artoo! Artoo-Detoo, where are you?,4,6,2,7,4,7,2,7,8,0
+7,SW_EpisodeIV,THREEPIO,"Artoo! Artoo-Detoo, where are you?",4,6,2,7,4,7,2,7,8,0
 8,SW_EpisodeIV,THREEPIO,At last! Where have you been?,8,2,1,3,4,6,3,5,4,0
 9,SW_EpisodeIV,THREEPIO,They're heading in this direction. What are we going to do? We'll be sent to the spice mines of Kessel or smashed into who knows what!,2,8,1,9,6,8,3,7,10,0
-10,SW_EpisodeIV,THREEPIO,Wait a minute, where are you going?,3,6,2,5,4,7,3,6,7,0
+10,SW_EpisodeIV,THREEPIO,"Wait a minute, where are you going?",3,6,2,5,4,7,3,6,7,0
 11,SW_EpisodeIV,IMPERIAL OFFICER,The Death Star plans are not in the main computer.,2,4,3,5,4,6,2,5,6,0
 12,SW_EpisodeIV,VADER,Where are those transmissions you intercepted?,3,2,1,8,9,6,2,4,7,0
 13,SW_EpisodeIV,REBEL OFFICER,We intercepted no transmissions. Aaah... This is a consular ship. We're on a diplomatic mission.,4,2,2,5,4,7,1,6,4,0
 14,SW_EpisodeIV,VADER,If this is a consular ship... where is the Ambassador?,5,2,1,8,7,8,2,5,6,0
-15,SW_EpisodeIV,VADER,Commander, tear this ship apart until you've found those plans and bring me the Ambassador. I want her alive!,6,1,1,9,8,10,0,5,8,0
+15,SW_EpisodeIV,VADER,"Commander, tear this ship apart until you've found those plans and bring me the Ambassador. I want her alive!",6,1,1,9,8,10,0,5,8,0
 16,SW_EpisodeIV,TROOPER,There she is! Set for stun!,7,1,0,9,10,5,2,4,6,0
 17,SW_EpisodeIV,TROOPER,She'll be all right. Inform Lord Vader we have a prisoner.,6,1,1,8,6,5,3,4,6,0
-18,SW_EpisodeIV,THREEPIO,Hey, you're not permitted in there. It's restricted. You'll be deactivated for sure.,4,7,1,6,5,9,3,6,8,0
-19,SW_EpisodeIV,THREEPIO,Don't call me a mindless philosopher, you overweight glob of grease! Now come out before somebody sees you.,5,7,2,8,6,7,3,5,9,0
+18,SW_EpisodeIV,THREEPIO,"Hey, you're not permitted in there. It's restricted. You'll be deactivated for sure.",4,7,1,6,5,9,3,6,8,0
+19,SW_EpisodeIV,THREEPIO,"Don't call me a mindless philosopher, you overweight glob of grease! Now come out before somebody sees you.",5,7,2,8,6,7,3,5,9,0
 20,SW_EpisodeIV,THREEPIO,Secret mission? What plans? What are you talking about? I'm not getting in there!,3,5,1,7,4,8,2,7,8,0
 21,SW_EpisodeIV,THREEPIO,I'm going to regret this.,4,6,2,5,3,7,2,5,7,0
 22,SW_EpisodeIV,CHIEF PILOT,There goes another one.,2,3,1,4,5,5,2,4,5,0
 23,SW_EpisodeIV,CAPTAIN,Hold your fire. There are no life forms. It must have been short-circuited.,3,2,1,3,6,5,3,6,4,0
-24,SW_EpisodeIV,THREEPIO,That's funny, the damage doesn't look as bad from out here.,3,6,2,6,5,8,1,6,7,0
+24,SW_EpisodeIV,THREEPIO,"That's funny, the damage doesn't look as bad from out here.",3,6,2,6,5,8,1,6,7,0
 25,SW_EpisodeIV,THREEPIO,Are you sure this things safe?,4,5,3,7,6,7,2,6,6,0
 26,SW_EpisodeIV,WOMAN,I've told you kids to slow down!,2,5,1,8,5,6,1,7,7,0
 27,SW_EpisodeIV,FIXER,Did I hear a young noise blast through here?,2,3,2,4,6,5,1,4,6,0
 28,SW_EpisodeIV,CAMIE,It was just Wormie on another rampage.,3,4,1,5,5,6,2,6,5,0
 29,SW_EpisodeIV,LUKE,Shape it up you guys!... Biggs?,6,2,1,4,7,6,1,5,6,0
 30,SW_EpisodeIV,LUKE,I didn't know you were back! When did you get in?,6,3,2,4,5,6,1,5,6,0
-31,SW_EpisodeIV,BIGGS,Just now. I wanted to surprise you, hot shot. I thought you'd be here... certainly didn't expect you to be out working.,5,4,3,4,6,5,2,6,7,0
-32,SW_EpisodeIV,LUKE,The Academy didn't change you much... but you're back so soon? Hey, what happened, didn't you get your commission?,6,5,1,3,6,6,2,5,6,0
+31,SW_EpisodeIV,BIGGS,"Just now. I wanted to surprise you, hot shot. I thought you'd be here... certainly didn't expect you to be out working.",5,4,3,4,6,5,2,6,7,0
+32,SW_EpisodeIV,LUKE,"The Academy didn't change you much... but you're back so soon? Hey, what happened, didn't you get your commission?",6,5,1,3,6,6,2,5,6,0
 33,SW_EpisodeIV,BIGGS,Of course I got it. Signed aboard The Rand Ecliptic last week. First mate Biggs Darklighter at your service...... I just came back to say goodbye to all you unfortunate landlocked simpletons.,5,4,2,4,6,5,3,6,7,0
 34,SW_EpisodeIV,LUKE,I almost forgot. There's a battle going on! Right here in our system. Come and look!,6,4,2,5,6,7,1,6,7,0
 35,SW_EpisodeIV,DEAK,Not again! Forget it.,4,5,2,6,4,7,2,5,6,0
 36,SW_EpisodeIV,LUKE,There they are!,7,3,1,5,8,6,2,7,7,0
-37,SW_EpisodeIV,BIGGS,That's no battle, hot shot... they're just sitting there! Probably a freighter-tanker refueling.,6,4,1,4,7,5,3,6,6,0
+37,SW_EpisodeIV,BIGGS,"That's no battle, hot shot... they're just sitting there! Probably a freighter-tanker refueling.",6,4,1,4,7,5,3,6,6,0
 38,SW_EpisodeIV,LUKE,But there was a lot of firing earlier...,6,4,2,5,6,7,3,6,7,0
-39,SW_EpisodeIV,LUKE,Hey, easy with those...,5,4,2,4,6,5,2,5,6,0
-40,SW_EpisodeIV,CAMIE,Don't worry about it, Wormie.,6,3,1,3,6,6,1,5,6,0
-41,SW_EpisodeIV,FIXER,I keep telling you, the Rebellion is a long way from here. I doubt if the Empire would even fight to keep this system. Believe me Luke, this planet is a big hunk of nothing...,5,5,2,5,6,7,2,5,7,0
-42,SW_EpisodeIV,LEIA,Lord Vader, I should have known. Only you could be so bold. The Imperial Senate will not sit still for this, when they hear you've attacked a diplomatic...,6,4,3,6,7,9,3,6,8,0
-43,SW_EpisodeIV,VADER,Don't play games with me, Your Highness. You weren't on any mercy mission this time. You passed directly through a restricted system. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you.,8,3,1,9,8,10,2,7,9,0
+39,SW_EpisodeIV,LUKE,"Hey, easy with those...",5,4,2,4,6,5,2,5,6,0
+40,SW_EpisodeIV,CAMIE,"Don't worry about it, Wormie.",6,3,1,3,6,6,1,5,6,0
+41,SW_EpisodeIV,FIXER,"I keep telling you, the Rebellion is a long way from here. I doubt if the Empire would even fight to keep this system. Believe me Luke, this planet is a big hunk of nothing...",5,5,2,5,6,7,2,5,7,0
+42,SW_EpisodeIV,LEIA,"Lord Vader, I should have known. Only you could be so bold. The Imperial Senate will not sit still for this, when they hear you've attacked a diplomatic...",6,4,3,6,7,9,3,6,8,0
+43,SW_EpisodeIV,VADER,"Don't play games with me, Your Highness. You weren't on any mercy mission this time. You passed directly through a restricted system. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you.",8,3,1,9,8,10,2,7,9,0
 44,SW_EpisodeIV,LEIA,I don't know what you're talking about. I'm a member of the Imperial Senate on a diplomatic mission to Alderaan...,7,2,2,8,6,9,1,6,7,0
 45,SW_EpisodeIV,VADER,You're a part of the Rebel Alliance... and a traitor. Take her away!,9,1,1,10,9,10,0,5,9,0
-46,SW_EpisodeIV,COMMANDER,Holding her is dangerous. If word of this gets out, it could generate sympathy for the Rebellion in the senate.,7,3,1,6,6,7,2,5,7,0
+46,SW_EpisodeIV,COMMANDER,"Holding her is dangerous. If word of this gets out, it could generate sympathy for the Rebellion in the senate.",7,3,1,6,6,7,2,5,7,0
 47,SW_EpisodeIV,VADER,I have traced the Rebel spies to her. Now she is my only link to find their secret base!,8,3,2,9,9,10,3,7,8,0
 48,SW_EpisodeIV,COMMANDER,you anything.,2,2,1,4,4,5,1,4,4,0
 49,SW_EpisodeIV,VADER,Leave that to me. Send a distress signal and then inform the senate that all aboard were killed!,9,1,0,10,10,10,0,5,9,0
-50,SW_EpisodeIV,SECOND OFFICER,Lord Vader, the battle station plans are not aboard this ship! And no transmissions were made. An escape pod was jettisoned during the fighting, but no life forms were aboard.,6,5,2,6,7,8,3,6,8,0
-51,SW_EpisodeIV,VADER,She must have hidden the plans in the escape pod. Send a detachment down to retrieve them. See to it personally, Commander. There'll be no one to stop us this time.,8,2,2,9,9,10,1,6,9,0
-52,SW_EpisodeIV,COMMANDER,Yes, sir.,5,3,1,5,6,7,2,6,7,0
+50,SW_EpisodeIV,SECOND OFFICER,"Lord Vader, the battle station plans are not aboard this ship! And no transmissions were made. An escape pod was jettisoned during the fighting, but no life forms were aboard.",6,5,2,6,7,8,3,6,8,0
+51,SW_EpisodeIV,VADER,"She must have hidden the plans in the escape pod. Send a detachment down to retrieve them. See to it personally, Commander. There'll be no one to stop us this time.",8,2,2,9,9,10,1,6,9,0
+52,SW_EpisodeIV,COMMANDER,"Yes, sir.",5,3,1,5,6,7,2,6,7,0
 53,SW_EpisodeIV,THREEPIO,How did I get into this mess? I really don't know how. We seem to be made to suffer. It's our lot in life.,4,7,1,8,5,7,3,7,9,0
 54,SW_EpisodeIV,THREEPIO,I've got to rest before I fall apart. My joints are almost frozen.,5,7,2,8,6,7,2,7,8,0
 55,SW_EpisodeIV,THREEPIO,What a desolate place this is.,4,6,2,7,6,8,3,6,8,0
 56,SW_EpisodeIV,THREEPIO,Where are you going?,4,5,2,7,5,8,3,7,8,0
-57,SW_EpisodeIV,THREEPIO,Well, I'm not going that way. It's much too rocky. This way is much easier.,3,6,1,5,5,6,2,5,6,0
+57,SW_EpisodeIV,THREEPIO,"Well, I'm not going that way. It's much too rocky. This way is much easier.",3,6,1,5,5,6,2,5,6,0
 58,SW_EpisodeIV,THREEPIO,What makes you think there are settlements over there?,4,5,2,6,5,7,3,6,6,0
 59,SW_EpisodeIV,THREEPIO,Don't get technical with me.,4,5,1,7,6,8,3,6,7,0
-60,SW_EpisodeIV,THREEPIO,What mission? What are you talking about? I've had just about enough of you! Go that way! You'll be malfunctioning within a day, you nearsighted scrap pile!,5,8,2,8,7,9,3,7,9,0
-61,SW_EpisodeIV,THREEPIO,And don't let me catch you following me begging for help, because you won't get it.,5,8,3,9,8,10,2,7,9,0
+60,SW_EpisodeIV,THREEPIO,"What mission? What are you talking about? I've had just about enough of you! Go that way! You'll be malfunctioning within a day, you nearsighted scrap pile!",5,8,2,8,7,9,3,7,9,0
+61,SW_EpisodeIV,THREEPIO,"And don't let me catch you following me begging for help, because you won't get it.",5,8,3,9,8,10,2,7,9,0
 62,SW_EpisodeIV,THREEPIO,No more adventures. I'm not going that way.,4,7,2,8,6,8,3,6,8,0
-63,SW_EpisodeIV,THREEPIO,That malfunctioning little twerp. This is all his fault! He tricked me into going this way, but he'll do no better.,6,7,3,9,7,10,2,6,9,0
-64,SW_EpisodeIV,THREEPIO,Wait, what's that? A transport! I'm saved!,6,2,1,8,5,7,3,6,7,0
-65,SW_EpisodeIV,THREEPIO,Over here! Help! Please, help!,7,1,2,9,6,8,3,7,8,0
-66,SW_EpisodeIV,LUKE,... so I cut off my power, shut down the afterburners and came in low on Deak's trail. I was so close I thought I was going to fry my instruments. As it was I busted up the Skyhopper pretty bad. Uncle Owen was pretty upset. He grounded me for the rest of the season. You should have been there... it was fantastic.,7,2,1,3,6,6,0,5,7,0
-67,SW_EpisodeIV,BIGGS,You ought to take it a little easy Luke. You may be the hottest bushpilot this side of Mos Eisley, but those little Skyhoppers are dangerous. Keep it up, and one day, whammo, you're going to be nothing more than a dark spot on the down side of a canyon wall.,6,3,2,4,7,6,2,5,7,0
+63,SW_EpisodeIV,THREEPIO,"That malfunctioning little twerp. This is all his fault! He tricked me into going this way, but he'll do no better.",6,7,3,9,7,10,2,6,9,0
+64,SW_EpisodeIV,THREEPIO,"Wait, what's that? A transport! I'm saved!",6,2,1,8,5,7,3,6,7,0
+65,SW_EpisodeIV,THREEPIO,"Over here! Help! Please, help!",7,1,2,9,6,8,3,7,8,0
+66,SW_EpisodeIV,LUKE,"... so I cut off my power, shut down the afterburners and came in low on Deak's trail. I was so close I thought I was going to fry my instruments. As it was I busted up the Skyhopper pretty bad. Uncle Owen was pretty upset. He grounded me for the rest of the season. You should have been there... it was fantastic.",7,2,1,3,6,6,0,5,7,0
+67,SW_EpisodeIV,BIGGS,"You ought to take it a little easy Luke. You may be the hottest bushpilot this side of Mos Eisley, but those little Skyhoppers are dangerous. Keep it up, and one day, whammo, you're going to be nothing more than a dark spot on the down side of a canyon wall.",6,3,2,4,7,6,2,5,7,0
 68,SW_EpisodeIV,LUKE,Look who's talking. Now that you've been around those giant starships you're beginning to sound like my uncle. You've gotten soft in the city...,5,4,2,3,6,5,2,5,6,0
 69,SW_EpisodeIV,BIGGS,I've missed you kid.,5,3,1,3,5,5,3,4,5,0
-70,SW_EpisodeIV,LUKE,Well, things haven't been the same since you left, Biggs. It's been so...quiet.,4,3,2,2,5,6,2,5,6,0
-71,SW_EpisodeIV,BIGGS,Luke, I didn't come back just to say goodbye... I shouldn't tell you this, but you're the only one I can trust... and if I don't come back, I want somebody to know.,6,3,2,6,7,7,3,5,7,0
+70,SW_EpisodeIV,LUKE,"Well, things haven't been the same since you left, Biggs. It's been so...quiet.",4,3,2,2,5,6,2,5,6,0
+71,SW_EpisodeIV,BIGGS,"Luke, I didn't come back just to say goodbye... I shouldn't tell you this, but you're the only one I can trust... and if I don't come back, I want somebody to know.",6,3,2,6,7,7,3,5,7,0
 72,SW_EpisodeIV,LUKE,What are you talking about?,5,3,2,4,6,6,3,5,6,0
-73,SW_EpisodeIV,BIGGS,I made some friends at the Academy. ... when our frigate goes to one of the central systems, we're going to jump ship and join the Alliance...,7,3,2,6,7,9,4,6,7,0
+73,SW_EpisodeIV,BIGGS,"I made some friends at the Academy. ... when our frigate goes to one of the central systems, we're going to jump ship and join the Alliance...",7,3,2,6,7,9,4,6,7,0
 74,SW_EpisodeIV,LUKE,Join the Rebellion?! Are you kidding! How?,6,3,2,7,8,9,3,6,8,0
 75,SW_EpisodeIV,BIGGS,Quiet down will ya! You got a mouth bigger than a meteor crater!,5,4,1,7,6,6,2,6,7,0
 76,SW_EpisodeIV,LUKE,I'm sorry. I'm quiet. Listen how quiet I am. You can barely hear me...,4,3,1,5,5,5,1,5,6,0
 77,SW_EpisodeIV,BIGGS,My friend has a friend on Bestine who might help us make contact.,6,4,2,6,7,8,3,6,7,0
 78,SW_EpisodeIV,LUKE,around forever trying to find them.,5,4,2,7,6,7,3,6,7,0
-79,SW_EpisodeIV,BIGGS,I know it's a long shot, but if I don't find them I'll do what I can on my own... It's what we always talked about. Luke, I'm not going to wait for the Empire to draft me into service. The Rebellion is spreading and I want to be on the right side - the side I believe in.,8,2,1,9,9,10,2,7,9,0
+79,SW_EpisodeIV,BIGGS,"I know it's a long shot, but if I don't find them I'll do what I can on my own... It's what we always talked about. Luke, I'm not going to wait for the Empire to draft me into service. The Rebellion is spreading and I want to be on the right side - the side I believe in.",8,2,1,9,9,10,2,7,9,0
 80,SW_EpisodeIV,LUKE,And I'm stuck here...,6,3,2,6,7,6,3,6,7,0
 81,SW_EpisodeIV,BIGGS,I thought you were going to the Academy next term. You'll get your chance to get off this rock.,6,4,3,5,7,6,3,5,8,0
 82,SW_EpisodeIV,LUKE,Not likely! I had to cancel my application. There has been a lot of unrest among the Sand People since you left... they've even raided the outskirts of Anchorhead.,7,3,2,6,6,8,2,7,8,0
 83,SW_EpisodeIV,BIGGS,Your uncle could hold off a whole colony of Sand People with one blaster.,6,4,2,7,6,8,3,7,7,0
-84,SW_EpisodeIV,LUKE,I know, but he's got enough vaporators going to make the place pay off. He needs me for just one more season. I can't leave him now.,7,4,1,7,6,8,3,6,8,0
-85,SW_EpisodeIV,BIGGS,I feel for you, Luke, you're going to have to learn what seems to be important or what really is important. What good is all your uncle's work if it's taken over by the Empire?... You know they're starting to nationalize commerce in the central systems...it won't be long before your uncle is merely a tenant, slaving for the greater glory of the Empire.,8,3,2,9,8,10,4,7,9,0
+84,SW_EpisodeIV,LUKE,"I know, but he's got enough vaporators going to make the place pay off. He needs me for just one more season. I can't leave him now.",7,4,1,7,6,8,3,6,8,0
+85,SW_EpisodeIV,BIGGS,"I feel for you, Luke, you're going to have to learn what seems to be important or what really is important. What good is all your uncle's work if it's taken over by the Empire?... You know they're starting to nationalize commerce in the central systems...it won't be long before your uncle is merely a tenant, slaving for the greater glory of the Empire.",8,3,2,9,8,10,4,7,9,0
 86,SW_EpisodeIV,LUKE,It couldn't happen here. You said it yourself. The Empire won't bother with this rock.,5,3,2,7,5,7,2,5,7,0
 87,SW_EpisodeIV,BIGGS,Things always change.,7,4,1,8,6,9,3,6,8,0
 88,SW_EpisodeIV,LUKE,I wish I was going... Are you going to be around long?,6,4,1,5,6,7,2,6,7,0
-89,SW_EpisodeIV,BIGGS,No, I'm leaving in the morning...,6,3,2,6,7,6,3,5,7,0
+89,SW_EpisodeIV,BIGGS,"No, I'm leaving in the morning...",6,3,2,6,7,6,3,5,7,0
 90,SW_EpisodeIV,LUKE,Then I guess I won't see you.,5,3,1,5,6,6,2,5,6,0
 91,SW_EpisodeIV,BIGGS,Maybe someday... I'll keep a lookout.,7,3,1,6,7,6,3,5,7,0
-92,SW_EpisodeIV,LUKE,Well, I'll be at the Academy next season... after that who knows. I won't be drafted into the Imperial Starfleet that's for sure... Take care of yourself, you'll always be the best friend I've got.,8,3,2,7,8,9,3,6,8,0
-93,SW_EpisodeIV,BIGGS,So long, Luke.,7,3,2,8,6,8,3,7,8,0
+92,SW_EpisodeIV,LUKE,"Well, I'll be at the Academy next season... after that who knows. I won't be drafted into the Imperial Starfleet that's for sure... Take care of yourself, you'll always be the best friend I've got.",8,3,2,7,8,9,3,6,8,0
+93,SW_EpisodeIV,BIGGS,"So long, Luke.",7,3,2,8,6,8,3,7,8,0
 94,SW_EpisodeIV,THREEPIO,Artoo-Detoo! It's you! It's you!,8,2,1,9,6,8,4,7,9,0
 95,SW_EpisodeIV,FIRST TROOPER,Someone was in the pod. The tracks go off in this direction.,7,2,2,8,7,6,3,7,8,0
-96,SW_EpisodeIV,SECOND TROOPER,Look, sir - droids.,5,4,1,7,6,6,2,6,7,0
+96,SW_EpisodeIV,SECOND TROOPER,"Look, sir - droids.",5,4,1,7,6,6,2,6,7,0
 97,SW_EpisodeIV,THREEPIO,Wake up! Wake up!,6,3,1,8,6,8,3,6,8,0
 98,SW_EpisodeIV,THREEPIO,We're doomed.,1,9,1,10,3,5,2,7,10,0
 99,SW_EpisodeIV,THREEPIO,Do you think they'll melt us down?,4,7,2,8,5,7,3,6,8,0
