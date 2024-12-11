@@ -271,7 +271,6 @@ Line,Movie,Character,Dialogue,Joy,Sadness,Disgust,Fear,Anger,Surprise,Calmness,C
 270,SW_EpisodeVI,ACKBAR,General Madine.,0,0,0,0,0,0,10,0,0,0
 271,SW_EpisodeVI,GENERAL MADINE,"We have stolen a small Imperial shuttle. Disguised as a cargo ship, and using a secret Imperial code, a strike team will land on the moon and deactivate the shield generator.",0,0,0,0,0,0,10,0,0,0
 272,SW_EpisodeVI,THREEPIO,Sounds dangerous.,0,0,0,0,0,3,5,0,10,0
-Line,Movie,Character,Dialogue,Joy,Sadness,Disgust,Fear,Anger,Surprise,Calmness,Confusion,Anxiety,Lust
 1,SW_EpisodeV,LUKE,"Echo Three to Echo Seven. Han, old buddy, do you read me?",0,2,0,4,0,2,3,4,7,0
 2,SW_EpisodeV,HAN,"Loud and clear, kid. What's up?",3,0,0,0,0,1,7,5,0,0
 3,SW_EpisodeV,LUKE,"Well, I finished my circle. I don't pick up any life readings.",3,1,0,0,0,0,8,0,2,0
