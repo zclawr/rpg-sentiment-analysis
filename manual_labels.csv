@@ -466,3 +466,407 @@ Line,Movie,Character,Dialogue,Joy,Sadness,Disgust,Fear,Anger,Surprise,Calmness,C
 465,SW_EpisodeV,HAN,Go on inside. We'll clean them off if there are any more.,0,0,0,0,3,0,8,0,5,0
 466,SW_EpisodeV,THREEPIO,Ohhh! Go away! Go away! Beastly thing. Shoo! Shoo!,0,0,9,5,0,10,0,0,5,0
 467,SW_EpisodeV,HAN,Wait a minute...,0,0,0,0,0,3,5,9,2,0
+1,SW_EpisodeVI,SHUTTLE CAPTAIN,"Command station, this is ST 321. Code Clearance Blue. We're starting our approach. Deactivate the security shield.",0,0,0,0,0,0,10,0,2,0
+2,SW_EpisodeVI,DEATH STAR CONTROLLER,The security deflector shield will be deactivated when we have confirmation of your code transmission. Stand by... You are clear to proceed.,0,0,0,0,0,0,10,0,0,0
+3,SW_EpisodeVI,SHUTTLE CAPTAIN,We're starting our approach.,2,0,0,1,0,0,10,0,3,0
+4,SW_EpisodeVI,OFFICER,Inform the commander that Lord Vader's shuttle has arrived.,0,0,0,5,0,0,8,0,5,0
+5,SW_EpisodeVI,OPERATOR,"Yes, sir.",0,0,0,3,0,0,7,0,5,0
+6,SW_EpisodeVI,JERJERROD,"Lord Vader, this is an unexpected pleasure. We're honored by your presence.",10,0,0,5,0,10,0,3,5,0
+7,SW_EpisodeVI,VADER,"You may dispense with the pleasantries, Commander. I'm here to put you back on schedule.",0,0,5,0,8,0,10,0,0,0
+8,SW_EpisodeVI,JERJERROD,"I assure you, Lord Vader, my men are working as fast as they can.",0,2,0,8,2,0,1,0,10,0
+9,SW_EpisodeVI,VADER,Perhaps I can find new ways to motivate them.,0,0,5,0,10,0,10,0,0,0
+10,SW_EpisodeVI,JERJERROD,"I tell you, this station will be operational as planned.",0,2,0,9,0,2,0,0,10,0
+11,SW_EpisodeVI,VADER,The Emperor does not share your optimistic appraisal of the situation.,0,0,5,0,10,0,7,0,0,0
+12,SW_EpisodeVI,JERJERROD,But he asks the impossible. I need more men.,0,4,0,7,0,0,0,4,8,0
+13,SW_EpisodeVI,VADER,Then perhaps you can tell him when he arrives.,0,0,0,0,5,0,8,0,0,0
+14,SW_EpisodeVI,JERJERROD,The Emperor's coming here?,2,1,1,4,0,8,0,10,6,0
+15,SW_EpisodeVI,VADER,"That is correct, Commander. And he is most displeased with your apparent lack of progress.",0,4,6,0,8,0,6,0,0,0
+16,SW_EpisodeVI,JERJERROD,We shall double our efforts.,2,1,0,5,0,0,0,0,7,0
+17,SW_EpisodeVI,VADER,"I hope so, Commander, for your sake. The Emperor is not as forgiving as I am.",2,4,0,3,4,0,2,0,2,0
+18,SW_EpisodeVI,THREEPIO,"Of course I'm worried. And you should be, too. Lando Calrissian and poor Chewbacca never returned from this awful place.",0,5,6,7,0,0,0,0,10,0
+19,SW_EpisodeVI,THREEPIO,"Don't be so sure. If I told you half the things I've heard about this Jabba the Hutt, You'd probably short-circuit.",0,0,0,6,0,0,0,3,10,0
+20,SW_EpisodeVI,THREEPIO,"Artoo, are you sure this is the right place? I better knock, I suppose.",0,0,0,7,0,3,0,10,4,0
+21,SW_EpisodeVI,THREEPIO,There doesn't seem to be anyone there. Let's go back and tell Master Luke.,0,0,0,4,0,2,2,0,0,0
+22,SW_EpisodeVI,STRANGE VOICE,Tee chuta hhat yudd!,0,0,0,3,7,0,0,0,0,0
+23,SW_EpisodeVI,THREEPIO,Goodness gracious me!,0,0,4,10,0,10,0,5,10,0
+24,SW_EpisodeVI,THREEPIO,Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt.,0,0,0,0,4,0,3,0,0,0
+25,SW_EpisodeVI,THREEPIO,"I don't think they're going to let us in, Artoo. We'd better go.",0,3,0,4,2,0,1,6,5,0
+26,SW_EpisodeVI,THREEPIO,"Artoo, wait. Oh, dear! Artoo. Artoo, I really don't think we should rush into all this.",0,0,0,7,0,10,0,0,7,0
+27,SW_EpisodeVI,THREEPIO,"Oh, Artoo! Artoo, wait for me!",0,0,0,4,0,3,0,2,7,0
+28,SW_EpisodeVI,THREEPIO,"Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.",0,0,2,5,0,10,0,0,7,0
+29,SW_EpisodeVI,BIB,Die Wanna Wanga!,0,0,0,0,10,0,0,0,0,0
+30,SW_EpisodeVI,THREEPIO,"Oh, my! Die Wanna Wauaga. We -- we bring a message to your master, Jabba the Hutt.",0,0,2,5,0,10,0,0,7,0
+31,SW_EpisodeVI,THREEPIO,"... and a gift. Gift, what gift?",0,0,0,3,0,6,0,10,3,0
+32,SW_EpisodeVI,BIB,Nee Jabba no badda. Me chaade su goodie.,0,0,0,0,3,0,6,0,0,0
+33,SW_EpisodeVI,THREEPIO,He says that our instructions are to give it only to Jabba himself.,0,0,0,4,0,0,3,0,0,0
+34,SW_EpisodeVI,THREEPIO,I'm terribly sorry. I'm afraid he's ever so stubborn about these sort of things.,0,8,0,4,0,0,0,0,6,0
+35,SW_EpisodeVI,BIB,Nudd Chaa.,0,0,0,0,0,0,0,0,0,0
+36,SW_EpisodeVI,THREEPIO,"Artoo, I have a bad feeling about this.",0,2,0,7,0,0,0,0,10,0
+37,SW_EpisodeVI,THREEPIO,Good morning.,10,0,0,0,0,0,10,0,0,0
+38,SW_EpisodeVI,JABBA,Bo Shuda!,0,0,2,0,10,0,0,0,0,0
+39,SW_EpisodeVI,THREEPIO,"The message, Artoo, the message.",0,0,0,3,0,0,0,0,3,0
+40,SW_EpisodeVI,LUKE,"Greetings, Exalted One. Allow me to introduce myself. I am Luke Skywalker, Jedi Knight and friend to Captain Solo. I know that you are powerful, mighty Jabba, and that your anger with Solo must be equally powerful. I seek an audience with Your Greatness to bargain for Solo's life. With your wisdom, I'm sure that we can work out an arrangement which will be mutually beneficial and enable us to avoid any unpleasant confrontation. As a token of my goodwill, I present to you a gift: these two droids.",10,0,0,3,2,0,8,0,2,0
+41,SW_EpisodeVI,THREEPIO,What did he say?,0,0,0,10,0,10,0,10,10,0
+42,SW_EpisodeVI,LUKE,... Both are hardworking and will serve you well.,7,0,0,0,0,0,10,0,0,0
+43,SW_EpisodeVI,THREEPIO,"This can't be! Artoo, you're playing the wrong message.",0,10,0,10,3,10,0,10,7,0
+44,SW_EpisodeVI,JABBA,There will be no bargain.,0,0,0,0,7,0,7,0,0,0
+45,SW_EpisodeVI,THREEPIO,We're doomed.,0,10,0,10,0,0,0,0,10,0
+46,SW_EpisodeVI,JABBA,I will not give up my favorite decoration. I like Captain Solo where he is.,10,0,0,0,0,0,10,0,0,0
+47,SW_EpisodeVI,THREEPIO,"Artoo, look! Captain Solo. And he's still frozen in carbonite.",0,5,5,3,0,10,0,0,0,0
+48,SW_EpisodeVI,THREEPIO,What could possibly have come over Master Luke. Is it something I did? He never expressed any unhappiness with my work. Oh! Oh! Hold it! Ohh!,0,4,3,5,5,7,0,10,6,0
+49,SW_EpisodeVI,NINEDENINE,"Ah, good. New acquisitions. You are a protocol droid, are you not?",8,0,0,0,0,4,9,10,0,0
+50,SW_EpisodeVI,THREEPIO,"I am See-Threepio, human-cy...",8,0,0,0,0,0,10,0,0,0
+51,SW_EpisodeVI,NINEDENINE,Yes or no will do.,0,0,0,0,5,0,5,0,0,0
+52,SW_EpisodeVI,THREEPIO,"Oh. Well, yes.",10,0,0,0,0,4,0,3,4,0
+53,SW_EpisodeVI,NINEDENINE,How many languages do you speak?,0,0,0,0,0,0,0,10,0,0
+54,SW_EpisodeVI,THREEPIO,"I am fluent in over six million forms of communication, and can readily...",10,0,0,0,0,0,10,0,0,0
+55,SW_EpisodeVI,NINEDENINE,Splendid! We have been without an interpreter since our master got angry with our last protocol droid and disintegrated him.,10,0,0,2,0,0,0,0,0,0
+56,SW_EpisodeVI,THREEPIO,Disintegrated?,0,0,4,10,0,8,0,10,8,0
+57,SW_EpisodeVI,NINEDENINE,Guard! This protocol droid might be useful. Fit him with a restraining bolt and take him back to His Excellency's main audience chamber.,8,0,0,0,3,0,0,0,0,0
+58,SW_EpisodeVI,THREEPIO,"Artoo, don't leave me! Ohhh!",0,8,0,10,0,0,0,0,10,0
+59,SW_EpisodeVI,NINEDENINE,"You're a feisty little one, but you'll soon learn some respect. I have need for you on the master's Sail Barge. And I think you'll fit in nicely.",3,0,0,0,5,5,6,0,0,0
+60,SW_EpisodeVI,JABBA,Da Eitha!,0,0,0,0,8,4,0,0,0,0
+61,SW_EpisodeVI,OOLA,Na Chuba negatorie Na! Na! Natoota...,0,0,2,0,10,0,0,0,0,0
+62,SW_EpisodeVI,JABBA,Boscka!,0,0,0,0,10,0,0,0,0,0
+63,SW_EpisodeVI,BOUSHH,I have come for the bounty on this Wookiee.,3,0,0,0,5,0,9,0,0,0
+64,SW_EpisodeVI,THREEPIO,"Oh, no! Chewbacca!",0,7,0,9,0,10,0,0,8,0
+65,SW_EpisodeVI,JABBA,At last we have the mighty Chewbacca.,9,0,0,0,0,2,8,0,0,0
+66,SW_EpisodeVI,THREEPIO,"Oh, uh, yes, uh, I am here, Your Worshipfulness. Uh... yes!",0,4,0,6,0,7,0,9,9,0
+67,SW_EpisodeVI,THREEPIO,Oh. The illustrious Jabba bids you welcome and will gladly pay you the reward of twenty- five thousand.,8,0,0,0,0,0,7,0,0,0
+68,SW_EpisodeVI,BOUSHH,I want fifty thousand. No less.,0,0,0,0,7,0,0,0,0,0
+69,SW_EpisodeVI,THREEPIO,"Uh, oh... but what, what did I say? Uh, the mighty Jabba asks why he must pay fifty thousand.",0,4,0,0,0,0,0,9,8,0
+70,SW_EpisodeVI,THREEPIO,Because he's holding a thermal detonator.,0,0,0,10,0,6,10,0,5,0
+71,SW_EpisodeVI,JABBA,This bounty hunter is my kind of scum. Fearless and inventive.,0,0,7,0,8,0,0,0,3,0
+72,SW_EpisodeVI,THREEPIO,Jabba offers the sum of thirty-five. And I suggest you take it.,0,0,3,0,6,0,6,0,0,0
+73,SW_EpisodeVI,BOUSHH,Zeebuss.,0,0,0,0,0,0,7,0,0,0
+74,SW_EpisodeVI,THREEPIO,He agrees!,10,0,0,0,0,0,0,0,0,0
+75,SW_EpisodeVI,BOUSHH,Just relax for a moment. You're free of the carbonite.,0,0,0,0,4,0,7,0,0,0
+76,SW_EpisodeVI,BOUSHH,Shhh. You have hibernation sickness.,0,0,0,0,0,0,7,0,0,0
+77,SW_EpisodeVI,HAN,I can't see.,0,2,0,8,4,4,0,6,4,0
+78,SW_EpisodeVI,BOUSHH,You eyesight will return in time.,0,0,0,0,0,0,10,0,0,0
+79,SW_EpisodeVI,HAN,Where am I?,0,0,0,4,2,5,0,10,0,0
+80,SW_EpisodeVI,BOUSHH,Jabba's palace.,0,0,0,0,0,0,5,0,0,0
+81,SW_EpisodeVI,HAN,Who are you?,0,0,0,4,0,0,0,10,8,0
+82,SW_EpisodeVI,LEIA,Someone who loves you.,10,0,0,0,0,0,10,0,0,8
+83,SW_EpisodeVI,HAN,Leia!,0,0,0,0,0,10,0,0,0,0
+84,SW_EpisodeVI,LEIA,I gotta get you out of here.,3,3,0,2,0,0,8,0,2,0
+85,SW_EpisodeVI,HAN,What's that? I know that laugh.,4,0,0,0,0,2,6,9,0,0
+86,SW_EpisodeVI,HAN,"Hey, Jabba. Look, Jabba, I was just on my way to pay you back, but I got a little sidetracked. It's not my fault.",0,0,0,3,0,0,6,0,3,0
+87,SW_EpisodeVI,JABBA,"It's too late for that, Solo. You may have been a good smuggler, but now you're Bantha fodder.",0,3,3,0,4,0,5,0,0,0
+88,SW_EpisodeVI,HAN,Look...,0,4,0,6,0,0,0,0,6,0
+89,SW_EpisodeVI,JABBA,Take him away!,0,0,3,0,9,0,0,0,0,0
+90,SW_EpisodeVI,HAN,Jabba... I'll pay you triple! You're throwing away a fortune here. Don't be a fool!,0,4,0,6,4,0,0,0,7,0
+91,SW_EpisodeVI,JABBA,Bring her to me.,3,0,0,0,0,0,7,0,0,7
+92,SW_EpisodeVI,LEIA,We have powerful friends. You're gonna regret this...,0,4,2,5,4,0,0,0,6,0
+93,SW_EpisodeVI,JABBA,I'm sure.,4,0,0,0,0,0,9,0,0,0
+94,SW_EpisodeVI,LEIA,Ugh!,0,0,10,6,7,4,0,0,7,0
+95,SW_EpisodeVI,THREEPIO,"Ohhh, I can't bear to watch.",0,7,9,5,0,0,0,0,6,0
+96,SW_EpisodeVI,HAN,"Chewie? Chewie, is that you?",5,0,0,0,0,0,0,10,3,0
+97,SW_EpisodeVI,HAN,Ah! Chew--Chewie!,10,0,0,0,0,8,0,0,0,0
+98,SW_EpisodeVI,HAN,"Wait. I can't see, pal. What's goin' on?",0,0,0,3,0,0,5,10,5,0
+99,SW_EpisodeVI,HAN,"Luke? Luke's crazy. He can't even take care of himself, much less rescue anybody.",0,0,0,0,0,7,5,8,0,0
+100,SW_EpisodeVI,HAN,"A...Jedi Knight? I--I'm out of it for a little while, everybody gets delusions of grandeur.",0,0,0,0,0,7,4,8,0,0
+101,SW_EpisodeVI,HAN,"I'm all right, pal. I'm all right.",8,3,0,0,0,0,10,0,0,0
+102,SW_EpisodeVI,LUKE,I must speak with Jabba.,0,0,0,0,3,0,8,0,0,0
+103,SW_EpisodeVI,LUKE,You will take me to Jabba now!,0,0,0,0,10,0,5,0,0,0
+104,SW_EpisodeVI,LUKE,You serve your master well.,4,0,0,0,0,0,8,0,0,0
+105,SW_EpisodeVI,LUKE,And you will be rewarded.,0,0,0,0,4,0,9,0,0,0
+106,SW_EpisodeVI,THREEPIO,At last! Master Luke's come to rescue me.,10,0,0,0,0,4,5,0,0,0
+107,SW_EpisodeVI,BIB,Master.,0,0,0,4,0,0,9,0,4,2
+108,SW_EpisodeVI,BIB,"...Luke Skywalker, Jedi Knight.",0,0,0,0,0,0,10,0,0,0
+109,SW_EpisodeVI,JABBA,I told you not to admit him.,0,0,4,0,6,0,8,0,0,0
+110,SW_EpisodeVI,LUKE,I must be allowed to speak.,0,0,0,0,7,0,8,0,0,0
+111,SW_EpisodeVI,BIB,He must be allowed to speak.,0,0,0,0,6,0,6,0,3,0
+112,SW_EpisodeVI,JABBA,You weak-minded fool! He's using an old Jedi mind trick.,0,0,5,0,10,0,0,0,0,0
+113,SW_EpisodeVI,LUKE,You will bring Captain Solo and the Wookiee to me.,0,0,0,0,3,0,9,0,0,0
+114,SW_EpisodeVI,JABBA,"Your mind powers will not work on me, boy.",0,0,3,1,6,0,5,0,3,0
+115,SW_EpisodeVI,LUKE,"Nevertheless, I'm taking Captain Solo and his friends. You can either profit by this... or be destroyed! It's your choice. But I warn you not to underestimate my powers.",0,0,0,0,9,0,9,0,0,0
+116,SW_EpisodeVI,THREEPIO,"Master Luke, you're standing on...",0,0,0,2,0,0,7,5,8,0
+117,SW_EpisodeVI,JABBA,"There will be no bargain, young Jedi. I shall enjoy watching you die.",9,0,4,0,9,0,7,0,0,0
+118,SW_EpisodeVI,JABBA,Bascka!,0,0,0,0,8,0,9,0,0,0
+119,SW_EpisodeVI,THREEPIO,"Oh, no! The Rancor!",0,0,0,10,0,8,0,0,10,0
+120,SW_EpisodeVI,JABBA,Bring me Solo and the Wookiee. They will all suffer for this outrage.,0,0,5,0,9,0,9,0,0,0
+121,SW_EpisodeVI,LUKE,Han!,0,0,0,9,0,10,0,0,9,0
+122,SW_EpisodeVI,HAN,Luke!,10,0,0,0,0,9,0,0,0,0
+123,SW_EpisodeVI,LUKE,Are you all right?,3,3,0,2,0,5,0,10,4,0
+124,SW_EpisodeVI,HAN,"Fine. Together again, huh?",10,0,0,0,0,0,10,2,0,0
+125,SW_EpisodeVI,LUKE,Wouldn't miss it.,10,0,0,0,0,0,10,0,0,0
+126,SW_EpisodeVI,HAN,How are we doing?,10,0,0,0,0,0,10,10,0,0
+127,SW_EpisodeVI,LUKE,The same as always.,10,0,0,0,0,0,10,0,0,0
+128,SW_EpisodeVI,HAN,"That bad, huh? Where's Leia?",7,0,0,0,0,0,6,10,8,0
+129,SW_EpisodeVI,LEIA,I'm here.,0,0,0,0,0,0,10,0,0,0
+130,SW_EpisodeVI,THREEPIO,"Oh, dear. His High Exaltedness, the great Jabba the Hutt, has decreed that you are to be terminated immediately.",0,0,0,3,0,0,0,0,8,0
+131,SW_EpisodeVI,HAN,"Good, I hate long waits.",10,0,0,0,0,0,10,0,0,0
+132,SW_EpisodeVI,THREEPIO,"You will therefore be taken to the Dune Sea and cast into the pit of Carkoon, the nesting place of the all-powerful Sarlacc.",0,5,0,3,0,0,2,0,7,0
+133,SW_EpisodeVI,HAN,Doesn't sound so bad.,7,0,0,0,0,0,10,0,0,0
+134,SW_EpisodeVI,THREEPIO,"In his belly, you will find a new definition of pain and suffering, as you are slowly digested over a thousand years.",0,5,5,5,0,0,7,0,5,0
+135,SW_EpisodeVI,HAN,"On second thought, let's pass on that, huh?",0,0,0,0,0,0,10,3,2,0
+136,SW_EpisodeVI,LUKE,"You should have bargained, Jabba. That's the last mistake you'll ever make.",0,0,0,0,8,0,9,0,0,0
+137,SW_EpisodeVI,HAN,"I think my eyes are getting better. Instead of a big dark blur, I see a big light blur.",8,0,0,0,0,0,8,0,0,0
+138,SW_EpisodeVI,LUKE,"There's nothing to see. I used to live here, you know.",0,0,0,0,0,0,10,0,0,0
+139,SW_EpisodeVI,HAN,"You're gonna die here, you know. Convenient.",0,0,0,2,0,0,10,0,2,0
+140,SW_EpisodeVI,LUKE,Just stick close to Chewie and Lando. I've taken care of everything.,5,0,0,0,0,0,9,0,0,0
+141,SW_EpisodeVI,HAN,Oh... great!,10,0,0,0,0,7,9,0,0,0
+142,SW_EpisodeVI,JABBA,Soon you will learn to appreciate me.,0,7,3,2,10,0,7,0,4,0
+143,SW_EpisodeVI,THREEPIO,"Oh, I'm terribly sor... Artoo! What are you doing here?",4,4,0,0,0,10,0,10,2,0
+144,SW_EpisodeVI,THREEPIO,"Well, I can see you're serving drinks, but this place is dangerous. They're going to execute Master Luke and, if we're not careful, us too!",0,0,0,7,0,0,0,0,10,0
+145,SW_EpisodeVI,THREEPIO,Hmm. I wish I had your confidence.,0,7,0,3,0,0,8,0,8,0
+146,SW_EpisodeVI,THREEPIO,"Victims of the almighty Sarlacc: His Excellency hopes that you will die honorably. But should any of you wish to beg for mercy, the great Jabba the Hutt will now listen to your pleas.",0,0,0,0,0,0,10,0,0,0
+147,SW_EpisodeVI,HAN,"Threepio, you tell that slimy piece of... worm-ridden filth he'll get no such pleasure from us. Right?",0,0,7,0,9,0,7,3,0,0
+148,SW_EpisodeVI,LUKE,Jabba! This is your last chance. Free us or die.,0,0,0,0,9,0,8,0,0,0
+149,SW_EpisodeVI,JABBA,Move him into position.,0,0,0,0,0,0,10,0,0,0
+150,SW_EpisodeVI,JABBA,Put him in.,0,0,0,0,0,0,10,0,0,0
+151,SW_EpisodeVI,LUKE,"Easy, Chewie.",0,0,0,0,0,0,0,0,7,0
+152,SW_EpisodeVI,LANDO,Whoa! Whoa! Help!,0,0,0,8,0,10,0,5,8,0
+153,SW_EpisodeVI,HAN,"Chewie, you okay? Where is he?",5,0,0,3,0,0,0,10,3,0
+154,SW_EpisodeVI,HAN,"I'm okay, pal.",0,0,0,0,0,0,10,0,0,0
+155,SW_EpisodeVI,LANDO,Han! Chewie?,0,0,0,0,0,10,0,10,0,0
+156,SW_EpisodeVI,HAN,Lando!,0,0,0,0,0,10,0,0,0,0
+157,SW_EpisodeVI,HAN,Boba Fett?! Boba Fett?! Where?,0,0,0,0,10,0,0,10,0,0
+158,SW_EpisodeVI,HAN,"Lando, grab it!",0,0,0,5,0,7,0,0,7,0
+159,SW_EpisodeVI,LANDO,Lower it!,0,0,0,5,0,0,0,0,5,0
+160,SW_EpisodeVI,HAN,I'm trying!,0,0,0,8,8,0,0,0,9,0
+161,SW_EpisodeVI,HAN,"Whoa! Whoa! Grab me, Chewie! I'm slipping.",0,0,0,8,0,8,0,0,10,0
+162,SW_EpisodeVI,HAN,Grab it! L--Lando. Grab!,0,0,0,10,0,0,0,0,10,0
+163,SW_EpisodeVI,HAN,Grab it! Almost... You almost got it!,7,0,0,7,0,0,0,0,7,0
+164,SW_EpisodeVI,LANDO,Hold it! Whoa!,0,0,0,8,0,0,0,0,8,0
+165,SW_EpisodeVI,HAN,"Gently now. All... all right. Now easy, easy. Hold me, Chewie.",5,0,0,0,0,0,10,0,0,0
+166,SW_EpisodeVI,HAN,"Chewie! Chewie, give me the gun. Don't move, Lando.",0,0,0,3,6,0,6,0,0,0
+167,SW_EpisodeVI,LANDO,"No, wait! I thought you were blind!",0,0,0,10,0,10,0,10,10,0
+168,SW_EpisodeVI,HAN,It's all right. Trust me. Don't move.,0,0,0,0,0,0,10,0,0,0
+169,SW_EpisodeVI,LANDO,All right! A little higher! Just a little higher!,10,0,0,0,0,7,0,0,0,0
+170,SW_EpisodeVI,HAN,"Chewie, Pull us up! Come on! Okay... up, Chewie, up!",10,0,0,0,0,0,0,0,0,0
+171,SW_EpisodeVI,LEIA,Come on. We gotta get out of here quick.,0,0,0,3,0,0,5,0,7,0
+172,SW_EpisodeVI,THREEPIO,"Not my eyes! Artoo, help! Quickly, Artoo. Oh! Ohhh! You beast!",0,0,0,5,5,8,0,0,10,0
+173,SW_EpisodeVI,LUKE,Get the gun! Point it at the deck!,0,0,0,3,7,5,0,0,10,0
+174,SW_EpisodeVI,LUKE,Point it at the deck!,0,0,0,10,0,10,0,0,10,0
+175,SW_EpisodeVI,THREEPIO,"Artoo, where are we going? I couldn't possibly jump.",0,0,0,0,0,0,0,10,10,0
+176,SW_EpisodeVI,LUKE,Come on!,0,0,0,0,10,0,0,0,10,0
+177,SW_EpisodeVI,LUKE,Let's go! And don't forget the droids.,0,0,0,0,6,0,9,0,0,0
+178,SW_EpisodeVI,LANDO,We're on our way.,0,0,0,0,0,0,10,0,0,0
+179,SW_EpisodeVI,HAN,I don't know. All I can see is a lot of blowing sand!,0,0,0,0,0,0,0,10,0,0
+180,SW_EpisodeVI,LEIA,That's all any of us can see.,0,0,0,0,0,0,10,0,0,0
+181,SW_EpisodeVI,HAN,Then I guess I'm getting better.,0,0,0,0,0,0,10,0,0,0
+182,SW_EpisodeVI,HAN,"I've got to hand it to you, kid, you were pretty good out there.",8,0,0,0,0,6,10,0,0,0
+183,SW_EpisodeVI,LUKE,I had a lot of help. Think nothing of it.,0,0,0,0,0,0,10,0,0,0
+184,SW_EpisodeVI,HAN,"No, I'm thinking a lot about it. That carbon freeze was the closest thing to dead there is. And it wasn't just sleepin'. It was a big wide awake nothing!",8,0,0,0,0,0,10,0,0,0
+185,SW_EpisodeVI,LUKE,I'll see you back at the fleet.,0,0,0,0,0,0,10,0,0,0
+186,SW_EpisodeVI,HAN,Why don't you leave that crate and come with us?,0,0,0,0,0,0,8,10,0,0
+187,SW_EpisodeVI,LUKE,I have a promise I have to keep first... to an old friend.,0,0,0,0,0,0,10,0,0,0
+188,SW_EpisodeVI,HAN,"Guess I owe you some thanks, too, Lando.",8,0,0,0,0,6,10,0,0,0
+189,SW_EpisodeVI,LANDO,"Figured if I left you frozen like that you'd just give me bad luck the rest of my life, so I might as well get you unfrozen sooner or later.",10,0,0,0,0,0,10,0,0,0
+190,SW_EpisodeVI,LEIA,He means \You're welcome.\,0,0,0,0,0,0,10,0,0,0
+191,SW_EpisodeVI,LANDO,"Come on, let's get off this miserable dust ball.",0,0,7,0,0,0,10,0,0,0
+192,SW_EpisodeVI,LUKE,I'll meet you back at the fleet.,0,0,0,0,0,0,10,0,0,0
+193,SW_EpisodeVI,LEIA,Hurry. The Alliance should be assembled by now.,0,0,0,0,0,0,10,0,7,0
+194,SW_EpisodeVI,LUKE,I will.,0,0,0,0,0,0,10,0,0,0
+195,SW_EpisodeVI,HAN,"Hey, Luke, thanks. Thanks for comin' after me. Now I owe you one.",8,0,0,0,0,0,10,0,0,0
+196,SW_EpisodeVI,LUKE,"That's right, Artoo. We're going to the Dagobah system. I have a promise to keep... to an old friend.",0,0,0,0,0,0,10,0,0,0
+197,SW_EpisodeVI,EMPEROR,"Rise, my friend.",0,0,0,0,0,0,10,0,0,0
+198,SW_EpisodeVI,VADER,The Death Star will be completed on schedule.,0,0,0,0,0,0,10,0,0,0
+199,SW_EpisodeVI,EMPEROR,"You have done well, Lord Vader. And now I sense you wish to continue your search for young Skywalker.",8,0,0,0,0,0,10,0,0,0
+200,SW_EpisodeVI,VADER,"Yes, my Master.",0,0,0,0,0,0,10,0,3,0
+201,SW_EpisodeVI,EMPEROR,"Patience, my friend. In time he will seek you out. And when he does, you must bring him before me. He has grown strong. Only together can we turn him to the dark side of the Force.",0,0,0,0,0,0,10,0,0,0
+202,SW_EpisodeVI,VADER,As you wish.,0,0,0,0,0,0,10,0,3,0
+203,SW_EpisodeVI,EMPEROR,Everything is proceeding as I have foreseen.,10,0,0,0,0,0,10,0,0,0
+204,SW_EpisodeVI,YODA,Hmm. That face you make. Look I so old to young eyes?,7,0,0,0,0,0,10,5,0,0
+205,SW_EpisodeVI,LUKE,No... of course not.,0,0,0,0,0,0,10,0,3,0
+206,SW_EpisodeVI,YODA,"I do, yes, I do! Sick have I become. Old and weak. When nine hundred years old you reach, look as good you will not. Hmm?",0,0,7,0,0,0,10,3,0,0
+207,SW_EpisodeVI,YODA,"Soon will I rest. Yes, forever sleep. Earned it, I have.",8,7,0,2,0,0,10,0,3,0
+208,SW_EpisodeVI,LUKE,"Master Yoda, you can't die.",0,10,0,7,0,0,4,0,10,0
+209,SW_EpisodeVI,YODA,Strong am I with the Force... but not that strong! Twilight is upon me and soon night must fall. That is the way of things ... the way of the Force.,5,8,0,0,0,0,5,0,3,0
+210,SW_EpisodeVI,LUKE,But I need your help. I've come back to complete the training.,0,7,0,8,0,0,3,0,10,0
+211,SW_EpisodeVI,YODA,No more training do you require. Already know you that which you need.,5,3,0,0,0,0,10,0,0,0
+212,SW_EpisodeVI,LUKE,Then I am a Jedi?,9,0,0,0,0,9,3,10,0,0
+213,SW_EpisodeVI,YODA,"Ohhh. Not yet. One thing remains: Vader. You must confront Vader. Then, only then, a Jedi will you be. And confront him you will.",0,0,0,0,0,0,10,0,0,0
+214,SW_EpisodeVI,LUKE,Master Yoda... is Darth Vader my father?,0,3,3,3,0,3,5,10,3,0
+215,SW_EpisodeVI,YODA,Mmm... rest I need. Yes... rest.,0,0,0,0,0,0,10,0,0,0
+216,SW_EpisodeVI,LUKE,"Yoda, I must know.",0,0,0,0,3,0,5,6,0,0
+217,SW_EpisodeVI,YODA,Your father he is.,0,0,0,0,0,0,10,0,0,0
+218,SW_EpisodeVI,YODA,"Told you, did he?",0,0,0,0,0,0,0,10,0,0
+219,SW_EpisodeVI,LUKE,Yes.,0,0,0,0,0,0,10,0,0,0
+220,SW_EpisodeVI,YODA,"Unexpected this is, and unfortunate..",0,0,0,3,0,10,5,5,3,0
+221,SW_EpisodeVI,LUKE,Unfortunate that I know the truth?,0,0,3,0,5,3,0,10,0,0
+222,SW_EpisodeVI,YODA,No. Unfortunate that you rushed to face him... that incomplete was your training. Not ready for the burden were you.,0,7,0,0,0,0,8,0,0,0
+223,SW_EpisodeVI,LUKE,"Well, I'm sorry.",0,10,0,0,0,0,3,0,0,0
+224,SW_EpisodeVI,YODA,"Remember, a Jedi's strength flows from the Force. But beware. Anger, fear, aggression. The dark side are they. Once you start down the dark path, forever will it dominate your destiny.",0,0,0,0,0,0,10,0,0,0
+225,SW_EpisodeVI,YODA,"Luke...Luke...Do not...Do not underestimate the powers of the Emperor, or suffer your father's fate, you will. Luke, when gone am I , the last of the Jedi will you be. Luke, the Force runs strong in your family. Pass on what you have learned, Luke... There is... another...Sky...Sky...walker.",0,5,0,7,0,0,8,0,5,0
+226,SW_EpisodeVI,LUKE,"I can't do it, Artoo. I can't go on alone.",0,9,0,10,0,0,0,0,10,0
+227,SW_EpisodeVI,BEN,Yoda will always be with you.,0,7,0,0,0,0,10,0,0,0
+228,SW_EpisodeVI,LUKE,Obi-Wan! Why didn't you tell me?,0,8,0,0,9,10,0,10,0,0
+229,SW_EpisodeVI,LUKE,You told me Vader betrayed and murdered my father.,0,9,3,0,10,0,0,7,0,0
+230,SW_EpisodeVI,BEN,"You father was seduced by the dark side of the Force. He ceased to be Anakin Skywalker and became Darth Vader. When that happened, the good man who was your father was destroyed. So what I have told you was true... from a certain point of view.",0,0,0,0,0,0,10,0,0,0
+231,SW_EpisodeVI,LUKE,A certain point of view!,0,0,0,0,10,10,0,0,0,0
+232,SW_EpisodeVI,BEN,"Luke, you're going to find that many of the truths we cling to depend greatly on our own point of view.",0,0,0,0,0,0,10,0,0,0
+233,SW_EpisodeVI,BEN,"I don't blame you for being angry. If I was wrong in what I did, it certainly wouldn't have been for the first time. You see, what happened to your father was my fault.",0,7,0,0,0,0,10,0,0,0
+234,SW_EpisodeVI,BEN,Anakin was a good friend.,5,8,0,0,0,0,8,0,0,0
+235,SW_EpisodeVI,BEN,"When I first knew him, your father was already a great pilot. But I was amazed how strongly the Force was with him. I took it upon myself to train him as a Jedi. I thought that I could instruct him just as well as Yoda. I was wrong. My pride has had terrible consequences for the galaxy.",0,10,3,0,0,0,7,0,5,0
+236,SW_EpisodeVI,LUKE,There's still good in him.,8,5,0,0,0,0,10,0,0,0
+237,SW_EpisodeVI,BEN,I also thought he could be turned back to the good side. It couldn't be done. He is more machine now than man. Twisted and evil.,0,8,0,10,0,0,6,0,8,0
+238,SW_EpisodeVI,LUKE,"I can't do it, Ben.",0,10,3,0,0,0,0,3,10,0
+239,SW_EpisodeVI,BEN,You cannot escape your destiny.,0,0,0,0,0,0,10,0,0,0
+240,SW_EpisodeVI,LUKE,I tried to stop him once. I couldn't do it.,0,10,0,4,2,0,7,0,10,0
+241,SW_EpisodeVI,BEN,"Vader humbled you when first you met him, Luke...but that experience was part of your training. It taught you, among other things, the value of patience. Had you not been so impatient to defeat Vader then, you could have finished your training here with Yoda. You would have been prepared.",0,0,0,0,0,0,10,0,0,0
+242,SW_EpisodeVI,LUKE,But I had to help my friends.,0,0,0,0,0,0,10,5,0,0
+243,SW_EpisodeVI,BEN,"And did you help them? It was they who had to save you. You achieved little by rushing back prematurely, I fear.",0,0,0,7,0,0,7,8,0,0
+244,SW_EpisodeVI,LUKE,I found out Darth Vader was my father.,0,5,5,5,5,10,8,5,3,0
+245,SW_EpisodeVI,BEN,"To be a Jedi, Luke, you must confront and then go beyond the dark side - the side your father couldn't get past. Impatience is the easiest door - for you, like your father. Only, your father was seduced by what he found on the other side of the door, and you have held firm. You're no longer so reckless now, Luke. You are strong and patient. And now, you must face Darth Vader again!",5,3,0,3,0,0,10,0,0,0
+246,SW_EpisodeVI,LUKE,I can't kill my own father.,0,10,7,5,3,0,5,8,9,0
+247,SW_EpisodeVI,BEN,Then the Emperor has already won. You were our only hope.,0,10,0,7,0,0,3,0,10,0
+248,SW_EpisodeVI,LUKE,Yoda spoke of another.,0,0,0,0,0,0,10,0,0,0
+249,SW_EpisodeVI,BEN,The other he spoke of is your twin sister.,0,0,0,0,0,0,10,0,0,0
+250,SW_EpisodeVI,LUKE,But I have no sister.,0,0,0,0,0,0,10,9,0,0
+251,SW_EpisodeVI,BEN,"Hmm. To protect you both from the Emperor, you were hidden from your father when you were born. The Emperor knew, as I did, if Anakin were to have any offspring, they would be a threat to him. That is the reason why your sister remains safely anonymous.",0,0,0,0,0,0,10,0,0,0
+252,SW_EpisodeVI,LUKE,Leia! Leia's my sister.,0,0,0,0,0,10,0,0,0,0
+253,SW_EpisodeVI,BEN,"Your insight serves you well. Bury your feelings deep down, Luke. They do you credit. But they could be made to serve the Emperor.",0,0,0,0,0,0,10,0,0,0
+254,SW_EpisodeVI,BEN,"When your father left, he didn't know your mother was pregnant. Your mother and I knew he would find out eventually, but we wanted to keep you both as safe as possible, for as long as possible. So I took you to live with my brother Owen on Tatooine... and your mother took Leia to live as the daughter of Senator Organa, on Alderaan.",0,0,0,0,0,0,10,0,0,0
+255,SW_EpisodeVI,BEN,"The Organa household was high-born and politically quite powerful in that system. Leia became a princess by virtue of lineage... no one knew she'd been adopted, of course. But it was a title without real power, since Alderaan had long been a democracy. Even so, the family continued to be politically powerful, and Leia, following in her foster father's path, became a senator as well. That's not all she became, of course... she became the leader of her cell in the Alliance against the corrupt Empire. And because she had diplomatic immunity, she was a vital link for getting information to the Rebel cause. That's what she was doing when her path crossed yours... for her foster parents had always told her to contact me on Tatooine, if her troubles became desperate.",0,0,0,0,0,0,10,0,0,0
+256,SW_EpisodeVI,LUKE,"But you can't let her get involved now, Ben. Vader will destroy her.",0,0,0,8,0,0,5,0,9,0
+257,SW_EpisodeVI,BEN,"She hasn't been trained in the ways of the Jedi the way you have, Luke ... but the Force is strong with her, as it is with all of your family. There is no avoiding the battle. You must face and destroy Vader!",0,0,0,8,8,0,3,0,7,0
+258,SW_EpisodeVI,HAN,"Well, look at you, a general, huh?",5,0,0,0,0,7,10,0,0,0
+259,SW_EpisodeVI,LANDO,"Oh, well, someone must have told them about my little maneuver at the battle of Taanab.",5,0,0,0,0,0,10,0,0,0
+260,SW_EpisodeVI,HAN,"Well, don't look at me, pal. I just said you were a fair pilot. I didn't know they were lookin' for somebody to lead this crazy attack.",0,0,0,0,0,5,7,6,0,0
+261,SW_EpisodeVI,LANDO,I'm surprised they didn't ask you to do it.,0,0,0,0,0,10,5,7,0,0
+262,SW_EpisodeVI,HAN,"Well, who says they didn't. But I ain't crazy. You're the respectable one, remember?",0,0,0,0,0,5,5,9,0,0
+263,SW_EpisodeVI,MON MOTHMA,The Emperor has made a critical error and the time for our attack has come.,0,0,0,0,0,0,10,0,0,0
+264,SW_EpisodeVI,MON MOTHMA,"The data brought to us by the Bothan spies pinpoints the exact location of the Emperor's new battle station. We also know that the weapon systems of this Death Star are not yet operational. With the Imperial Fleet spread throughout the galaxy in a vain effort to engage us, it is relatively unprotected. But most important of all, we've learned that the Emperor himself is personally overseeing the final stages of the construction of this Death Star.",0,0,0,0,0,0,10,0,0,0
+265,SW_EpisodeVI,MON MOTHMA,"Many Bothans died to bring us this information. Admiral Ackbar, please.",0,0,0,0,0,0,10,0,7,0
+266,SW_EpisodeVI,ACKBAR,"You can see here the Death Star orbiting the forest Moon of Endor. Although the weapon systems on this Death Star are not yet operational, the Death Star does have a strong defense mechanism. It is protected by an energy shield, which is generated from the nearby forest Moon of Endor. The shield must be deactivated if any attack is to be attempted. Once the shield is down, our cruisers will create a perimeter, while the fighters fly into the superstructure and attempt to knock out the main reactor.",0,0,0,0,0,0,10,0,0,0
+267,SW_EpisodeVI,ACKBAR,General Calrissian has volunteered to lead the fighter attack,0,0,0,0,0,0,10,0,0,0
+268,SW_EpisodeVI,HAN,Good luck.,10,0,0,0,0,0,10,0,10,0
+269,SW_EpisodeVI,HAN,You're gonna need it.,0,0,0,0,0,0,10,0,10,0
+270,SW_EpisodeVI,ACKBAR,General Madine.,0,0,0,0,0,0,10,0,0,0
+271,SW_EpisodeVI,GENERAL MADINE,"We have stolen a small Imperial shuttle. Disguised as a cargo ship, and using a secret Imperial code, a strike team will land on the moon and deactivate the shield generator.",0,0,0,0,0,0,10,0,0,0
+272,SW_EpisodeVI,THREEPIO,Sounds dangerous.,0,0,0,0,0,3,5,0,10,0
+273,SW_EpisodeVI,LEIA, I wonder who they found to pull that off.,2,1,0,1,0,3,5,4,2,0
+274,SW_EpisodeVI,GENERAL MADINE,"General Solo, is your strike team assembled?",2,0,0,2,0,3,6,3,4,0
+275,SW_EpisodeVI,HAN,"Uh, my team's ready. I don't have a command crew for the shuttle.",2,0,0,3,1,2,5,4,5,0
+276,SW_EpisodeVI,HAN,"Well, it's gonna be rough, pal. I didn't want to speak for you.",1,1,0,4,2,2,4,3,6,0
+277,SW_EpisodeVI,HAN,"That's one.",2,0,0,1,0,1,7,0,1,0
+278,SW_EpisodeVI,LEIA,"Uh, General... count me in.",3,0,0,1,0,2,6,2,3,0
+279,SW_EpisodeVI,VOICE,"I'm with you, too!",4,0,0,2,0,3,5,1,3,0
+280,SW_EpisodeVI,LEIA,"What is it?",2,0,0,2,0,3,6,5,4,0
+281,SW_EpisodeVI,LUKE,"Ask me again sometime.",3,0,0,1,0,2,7,2,3,0
+282,SW_EpisodeVI,HAN,"Luke.",1,0,0,1,0,2,6,2,3,0
+283,SW_EpisodeVI,LUKE,"Hi, Han... Chewie.",4,0,0,1,0,2,7,1,2,0
+284,SW_EpisodeVI,THREEPIO,"\"Exciting\" is hardly the word I would use.",2,0,0,3,0,3,5,4,6,0
+285,SW_EpisodeVI,HAN,"Look. I want you to take her. I mean it. Take her. You need all the help you can get. She's the fastest ship in the fleet.",3,1,0,4,1,3,5,3,6,0
+286,SW_EpisodeVI,LANDO,"All right, old buddy. You know, I know what she means to you. I'll take good care of her. She-she won't get a scratch. All right?",4,0,0,2,0,3,6,2,4,0
+287,SW_EpisodeVI,HAN,"Right. I got your promise now. Not a scratch.",3,0,0,2,1,2,6,3,4,0
+288,SW_EpisodeVI,LANDO,"Look, would you get going, you pirate.",2,0,0,3,2,3,5,4,5,0
+289,SW_EpisodeVI,LANDO,"Good luck.",3,0,0,1,0,2,7,1,3,0
+290,SW_EpisodeVI,HAN,"You, too.",2,0,0,1,0,1,8,0,2,0
+291,SW_EpisodeVI,HAN,"You got her warmed?",2,0,0,1,0,1,7,1,2,0
+292,SW_EpisodeVI,LUKE,"Yeah, she's comin' up.",3,0,0,1,0,1,7,0,2,0
+293,SW_EpisodeVI,HAN,"No. I don't think the Empire had Wookiees in mind when they designed her, Chewie.",3,0,0,3,2,3,5,3,4,0
+294,SW_EpisodeVI,LEIA,"Hey, are you awake?",2,0,0,2,0,2,7,1,3,0
+295,SW_EpisodeVI,HAN,"Yeah, I just got a funny feeling. Like I'm not gonna see her again.",4,2,0,6,2,3,5,4,7,0
+296,SW_EpisodeVI,LEIA,"Come on, General, let's move.",3,0,0,2,0,2,7,1,3,0
+297,SW_EpisodeVI,HAN,"Right. Chewie, let's see what this piece of junk can do. Ready, everybody?",3,0,0,2,1,3,6,2,4,0
+298,SW_EpisodeVI,LUKE,"All set.",3,0,0,1,0,2,7,1,2,0
+299,SW_EpisodeVI,THREEPIO,"Here we go again.",2,0,0,2,1,4,5,3,5,0
+300,SW_EpisodeVI,HAN,"All right, hang on.",3,0,0,2,1,3,6,2,4,0
+301,SW_EpisodeVI,VADER,"What is thy bidding, my Master?",3,0,0,3,2,3,5,4,5,0
+302,SW_EpisodeVI,EMPEROR,"Send the fleet to the far side of Endor. There it will stay until called for.",2,0,0,3,0,4,6,3,4,0
+303,SW_EpisodeVI,VADER,"What of the reports of the Rebel fleet massing near Sullust?",3,0,0,4,1,3,6,3,5,0
+304,SW_EpisodeVI,EMPEROR,"It is of no concern. Soon the Rebellion will be crushed and young Skywalker will be one of us! Your work here is finished, my friend. Go out to the command ship and await my orders.",4,1,0,5,2,4,5,4,6,0
+305,SW_EpisodeVI,VADER,"Yes, my Master.",2,0,0,3,0,2,7,1,3,0
+306,SW_EpisodeVI,HAN,"If they don't go for this, we're gonna have to get outta here pretty quick, Chewie.",4,2,0,6,3,4,5,5,7,0
+307,SW_EpisodeVI,CONTROLLER,"We have you on our screen now. Please identify.",2,0,0,3,0,3,6,4,5,0
+308,SW_EpisodeVI,HAN,"Shuttle Tydirium requesting deactivation of the deflector shield.",3,0,0,4,0,3,6,3,5,0
+309,SW_EpisodeVI,CONTROLLER,"Shuttle Tydirium, transmit the clearance code for shield passage.",3,0,0,4,0,3,6,3,5,0
+310,SW_EpisodeVI,HAN,"Transmission commencing.",3,0,0,3,0,3,7,2,4,0
+311,SW_EpisodeVI,LEIA,"Now we find out if that code is worth the price we paid.",4,0,0,5,2,3,6,3,5,0
+312,SW_EpisodeVI,HAN,"It'll work. It'll work.",3,0,0,3,1,3,6,2,4,0
+313,SW_EpisodeVI,LUKE,"Vader's on that ship.",4,0,0,5,2,3,5,3,6,0
+314,SW_EpisodeVI,HAN,"Now don't get jittery, Luke. There are a lot of command ships. Keep your distance though, Chewie, but don't look like you're trying to keep your distance.",0,0,0,5,0,0,5,0,10,0
+315,SW_EpisodeVI,HAN,I don't know. Fly casual.,0,0,0,0,0,0,7,10,5,0
+316,SW_EpisodeVI,LUKE,I'm endangering the mission. I shouldn't have come.,0,8,0,8,3,0,0,0,10,0
+317,SW_EpisodeVI,HAN,"It's your imagination, kid. Come on. Let's keep a little optimism here.",7,0,0,0,3,0,3,0,5,0
+318,SW_EpisodeVI,VADER,Where is that shuttle going?,0,0,0,0,0,0,0,10,0,0
+319,SW_EpisodeVI,PIETT,"Shuttle Tydirium, what is your cargo and destination?",0,0,0,0,0,0,0,6,0,0
+320,SW_EpisodeVI,PILOT VOICE,Parts and technical crew for the forest moon.,0,0,0,0,0,0,10,0,0,0
+321,SW_EpisodeVI,VADER,Do they have a code clearance?,0,0,0,0,0,0,0,6,0,0
+322,SW_EpisodeVI,PIETT,"It's an older code, sir, but it checks out. I was about to clear them.",0,0,0,7,0,0,0,0,8,0
+323,SW_EpisodeVI,PIETT,Shall I hold them?,5,0,0,0,0,0,0,9,0,0
+324,SW_EpisodeVI,VADER,No. Leave them to me. I will deal with them myself.,0,7,9,0,10,0,3,0,0,0
+325,SW_EpisodeVI,PIETT,"As you wish, my lord. Carry on.",6,3,0,6,0,0,5,0,7,0
+326,SW_EpisodeVI,HAN,"They're not goin' for it, Chewie.",0,6,0,3,4,0,1,0,2,0
+327,SW_EpisodeVI,CONTROLLER,"Shuttle Tydirium, deactivation of the shield will commence immediately. Follow your present course.",0,8,0,3,0,0,0,0,5,0
+328,SW_EpisodeVI,HAN,Okay! I told you it was gonna work. No problem.,10,0,0,0,0,0,10,0,0,0
+329,SW_EpisodeVI,THREEPIO,"Oh, I told you it was dangerous here.",0,5,0,8,0,4,0,0,7,0
+330,SW_EpisodeVI,LEIA,Shall we try and go around?,3,0,0,3,0,0,0,8,5,0
+331,SW_EpisodeVI,HAN,It'll take time. This whole party'll be for nothing if they see us.,0,10,5,7,0,0,0,0,7,0
+332,SW_EpisodeVI,HAN,Chewie and I will take care of this. You stay here.,0,8,0,0,6,0,0,0,4,0
+333,SW_EpisodeVI,LUKE,"Quietly, there might be more of them out there.",0,6,0,9,0,0,0,7,10,0
+334,SW_EpisodeVI,HAN,Hey... it's me.,0,0,0,0,0,0,10,0,0,0
+335,SW_EpisodeVI,SCOUT #1,Go for help! Go!,10,10,0,10,10,10,0,0,10,0
+336,SW_EpisodeVI,LUKE,Great. Come on.,10,0,0,6,7,7,8,0,0,0
+337,SW_EpisodeVI,LEIA,Over there! Two more of them!,7,0,0,8,7,10,0,0,7,0
+338,SW_EpisodeVI,LUKE,"I see them. Wait, Leia!",0,4,4,10,2,8,2,0,9,0
+339,SW_EpisodeVI,LUKE,Quick! Jam their comlink. Center switch!,0,0,0,4,5,7,0,0,7,0
+340,SW_EpisodeVI,HAN,"Hey, wait! Ahhh!",2,4,0,8,6,5,0,0,4,0
+341,SW_EpisodeVI,LUKE,Move closer!,0,0,0,0,3,4,0,0,3,0
+342,SW_EpisodeVI,LUKE,Get alongside that one!,0,0,0,3,0,0,0,0,3,0
+343,SW_EpisodeVI,LUKE,Get him!,0,0,0,0,8,0,0,0,0,0
+344,SW_EpisodeVI,LUKE,Keep on that one! I'll take these two!,0,0,0,4,7,0,0,0,4,0
+345,SW_EpisodeVI,THREEPIO,"Oh, General Solo, somebody's coming. Oh!",4,6,2,7,0,3,0,0,8,0
+346,SW_EpisodeVI,HAN,Luke! Where's Leia?,0,0,0,7,3,4,0,10,7,0
+347,SW_EpisodeVI,LUKE,What? She didn't come back?,0,3,0,3,0,7,0,10,8,0
+348,SW_EpisodeVI,HAN,I thought she was with you.,0,5,0,3,0,8,0,10,7,0
+349,SW_EpisodeVI,LUKE,We got separated.,0,10,0,0,0,0,8,0,7,0
+350,SW_EpisodeVI,LUKE,"Hey, we better go look for her.",0,7,0,7,6,0,7,0,6,0
+351,SW_EpisodeVI,HAN,Take the squad ahead. We'll meet at the shield generator at 0300.,2,0,0,4,1,1,7,0,3,0
+352,SW_EpisodeVI,LUKE,"Come on, Artoo. We'll need your scanners.",3,0,0,2,0,1,5,0,2,0
+353,SW_EpisodeVI,THREEPIO,"Don't worry, Master Luke. We know what to do.",3,0,0,1,0,1,7,0,2,0
+354,SW_EpisodeVI,THREEPIO,And you said it was pretty here. Ugh!,1,2,6,1,3,2,1,2,2,0
+355,SW_EpisodeVI,LEIA,Cut it out!,0,0,8,1,5,2,1,1,3,0
+356,SW_EpisodeVI,LEIA,I'm not gonna hurt you.,2,0,0,1,0,1,7,0,2,0
+357,SW_EpisodeVI,LEIA,"Well, looks like I'm stuck here. Trouble is, I don't know where here is.",3,4,0,2,1,2,4,5,3,0
+358,SW_EpisodeVI,LEIA,"Well, maybe you can help me. Come on, sit down.",3,0,0,1,0,1,6,0,2,0
+359,SW_EpisodeVI,LEIA,I promise I won't hurt you. Now come here.,2,0,0,1,0,1,7,0,2,0
+360,SW_EpisodeVI,LEIA,All right. You want something to eat?,2,0,0,1,0,1,7,0,1,0
+361,SW_EpisodeVI,LEIA,That's right. Come on. Hmmm?,2,0,0,1,0,1,7,0,1,0
+362,SW_EpisodeVI,LEIA,"Look, it's a hat. It's not gonna hurt you. Look. You're a jittery little thing, aren't you?",3,0,0,1,1,2,6,1,3,0
+363,SW_EpisodeVI,LEIA,What is it?,2,0,0,1,0,1,7,0,1,0
+364,SW_EpisodeVI,SCOUT #l,"Freeze! Come on, get up!",2,0,0,4,3,2,5,1,3,0
+365,SW_EpisodeVI,SCOUT #1,Go get your ride and take her back to base.,2,0,0,1,0,1,7,0,2,0
+366,SW_EpisodeVI,SCOUT #2,"Yes, sir.",1,0,0,0,0,0,8,0,1,0
+367,SW_EpisodeVI,LEIA,"Come on, let's get outta here.",2,0,0,1,0,1,7,0,2,0
+368,SW_EpisodeVI,GUARD,Halt! The Emperor does not wish to be disturbed at the moment.,1,0,0,2,3,1,6,2,3,0
+369,SW_EpisodeVI,VADER,"The Emperor will see me, now!",3,0,0,4,4,2,5,2,3,0
+370,SW_EpisodeVI,GUARD,"The Emperor will see you, now.",2,0,0,3,4,1,6,2,2,0
+371,SW_EpisodeVI,EMPEROR,I told you to remain on the command ship.,3,0,0,2,5,1,6,2,3,0
+372,SW_EpisodeVI,VADER,A small Rebel force has penetrated the shield and landed on Endor.,2,1,0,3,4,2,5,2,3,0
+373,SW_EpisodeVI,EMPEROR,"Yes, I know.",2,0,0,1,0,1,8,0,1,0
+374,SW_EpisodeVI,VADER,My son is with them.,3,4,0,2,2,1,6,2,3,0
+375,SW_EpisodeVI,EMPEROR,Are you sure?,2,0,0,1,0,1,6,7,3,0
+376,SW_EpisodeVI,VADER,"I have felt him, my Master.",3,2,0,2,2,1,6,2,3,0
+377,SW_EpisodeVI,EMPEROR,"Strange, that I have not. I wonder if your feelings on this matter are clear, Lord Vader.",3,2,0,3,4,2,5,4,4,0
+378,SW_EpisodeVI,VADER,"They are clear, my Master.",3,0,0,2,1,1,7,0,2,0
+379,SW_EpisodeVI,EMPEROR,Then you must go to the Sanctuary Moon and wait for them.,2,0,0,1,2,1,7,1,2,0
+380,SW_EpisodeVI,VADER,He will come to me?,3,0,0,2,1,1,6,8,3,0
+381,SW_EpisodeVI,EMPEROR,I have foreseen it. His compassion for you will be his undoing. He will come to you and then you will bring him before me.,3,2,0,3,4,2,6,3,4,0
+382,SW_EpisodeVI,VADER,As you wish.,2,0,0,1,0,1,8,0,1,0
+383,SW_EpisodeVI,HAN,Luke! Luke!,3,0,0,4,5,2,5,3,4,0
+384,SW_EpisodeVI,THREEPIO,"Oh, Master Luke.",3,0,0,2,1,1,7,1,2,0
+385,SW_EpisodeVI,LUKE,There's two more wrecked speeders back there. And I found this.,3,0,0,2,2,1,6,2,3,0
+386,SW_EpisodeVI,THREEPIO,I'm afraid that Artoo's sensors can find no trace of Princess Leia.,3,8,0,7,3,1,5,6,8,0
+387,SW_EpisodeVI,HAN,I hope she's alright.,3,7,0,4,2,1,6,4,5,0
+388,SW_EpisodeVI,HAN,"What, Chewie? What? Chewie!",3,0,0,5,4,8,5,8,4,0
+389,SW_EpisodeVI,HAN,"Hey, I don't get it.",2,0,0,3,3,2,4,10,4,0
+390,SW_EpisodeVI,HAN,"Nah, it's just a dead animal, Chewie.",1,2,3,1,0,2,7,1,1,0
+391,SW_EpisodeVI,LUKE,"Chewie, wa-wait! Don't!",0,1,0,6,0,4,1,3,7,0
+392,SW_EpisodeVI,HAN,"Nice work. Great, Chewie! Great! Always thinking with your stomach.",3,0,0,1,1,2,7,1,2,0
+393,SW_EpisodeVI,LUKE,"Will you take it easy? Let's just figure out a way to get out of this thing. Han, can you reach my lightsaber?",3,2,0,3,2,3,6,4,5,0
+394,SW_EpisodeVI,HAN,"Yeah, sure.",2,0,0,1,0,1,8,0,1,0
+395,SW_EpisodeVI,THREEPIO,"Artoo, I'm not sure that's such a good idea. It's a very long dro-o-op!!",3,1,0,7,3,5,4,6,8,0
+396,SW_EpisodeVI,HAN,Wha--? Hey! Point that thing someplace else.,3,0,0,5,4,3,5,4,5,0
+397,SW_EpisodeVI,HAN,Hey!,5,0,4,2,7,9,2,3,7,0
+398,SW_EpisodeVI,LUKE,"Han, don't. It'll be all right.",3,1,0,2,1,2,7,2,3,0
+399,SW_EpisodeVI,LUKE,"Chewie, give 'em your crossbow.",2,0,0,1,1,1,8,1,2,0
+400,SW_EpisodeVI,THREEPIO,"Oh, my head. Oh, my goodness!",3,5,0,4,2,6,5,4,6,0
+401,SW_EpisodeVI,LUKE,Do you understand anything they're saying?,3,0,0,2,1,3,6,8,5,0
+402,SW_EpisodeVI,THREEPIO,"Oh, yes, Master Luke! Remember that I am fluent in over six million forms of communication.",3,0,0,1,1,2,7,2,3,0
+403,SW_EpisodeVI,HAN,What are you telling them?,3,0,0,2,1,3,6,8,5,0
+404,SW_EpisodeVI,THREEPIO,"Hello, I think... I could be mistaken. They're using a very primitive dialect. But I do believe they think I am some sort of god.",0,0,0,2,0,5,3,4,2,0
