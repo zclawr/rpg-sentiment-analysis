@@ -151,8 +151,8 @@ After preprocessing our data by binning into 0 and 1 classes for each target, wh
 ![dist2](https://github.com/user-attachments/assets/a040ffbb-5e89-4fb6-a0e8-129013a1543a)
 
 
-The following are the loss curves generated during training of each XGBClassifier with the best hyperparameters found during tuning, and below that a series of classification reports for each emotion:
-![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
+The following are the classification reports for each emotion generated after training each emotion's XGBClassifier with the best hyperparameters found during tuning. Below the classification reports are the loss curves for each classifier generated during training.
+
 ```
 Classification Report for Joy:
               precision    recall  f1-score   support
@@ -254,6 +254,8 @@ Classification Report for Lust:
    macro avg       0.53      0.53      0.53       174
 weighted avg       0.90      0.90      0.90       174
 ```
+![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
+
 
 ### Discussion Section
 - This is where you will discuss the why, and your interpretation and your thoughy process from beginning to end. This will mimic the sections you have created in your methods section as well as new sections you feel you need to create. You can also discuss how believable your results are at each step. You can discuss any short comings. It's ok to criticize as this shows your intellectual merit, as to how you are thinking about things scientifically and how you are able to correctly scrutinize things and find short comings. In science we never really find the perfect solution, especially since we know something will probably come up int he future (i.e. donkeys) and mess everything up. If you do it's probably a unicorn or the data and model you chose are just perfect for each other!
