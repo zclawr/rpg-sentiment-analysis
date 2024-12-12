@@ -64,9 +64,27 @@ For our second model, we used XGBoost. We pass in an XGBRegressor into our multi
 
 [Open the Jupyter Notebook](Milestone5.ipynb)
 
-For our third model, we create an XGBClassifier model for each emotion. 
+For our third model, we create an XGBClassifier model for each emotion. We tune the hyperparameters of each of these XGBClassifiers individually with an exhaustive Grid Search after some manual tuning to narrow down parameters of interest and notable value ranges. We tuned the hyperparameters with the following parameters and ranges: 
 
+```
+param_grid = {
+        'learning_rate': [0.005, 0.01, 0.05],
+        'reg_lambda': [1, 5, 10],
+        'max_depth': [3,6,9]
+    }
 
+model = xgb.XGBClassifier(
+        tree_method='hist',
+        objective='binary:logistic',
+        eval_metric='logloss',
+        n_estimators=1000,
+        early_stopping_rounds=10
+    )
+
+grid_search = GridSearchCV(model, param_grid, scoring='recall', cv=3, n_jobs=-1)  # Use 3-fold cross-validation
+grid_search.fit(X_train_resampled, y_train_resampled, verbose=2, eval_set=[(X_train_resampled, y_train_resampled), (X_test, y_test)])
+```
+We also forced each XGBClassifier to be trained over a maximum of 1000 epochs by setting the ```n_estimators=1000```` parameter. Additionally, we enabled early stopping with ```early_stopping_rounds=10```, where after 10 epochs, if neither evaluation set sees a decrease in loss, we stop the training early. Our tree method is ```hist```, which is an approximate greedy algorithm that speeds up the tree fitting. We score the search by recall, and therefore our best hyperparameters will be those which maximize recall. We use 3-fold cross validation during the hyperparameter search. From here, we train a fresh batch of XGBClassifers, one for each emotion, using these optimized hyperparameters, which are searched for per emotion, and we train these on a maximum of 5000 epochs. We also use an evaluation set on these consisting of training and testing data which is used to generate a loss curve for each of the classifiers, for which the metric used is logloss. We use these loss curves, as well as classification reports, to evaluate each model.  
 
 ### Results Section
 - This will include the results from the methods listed above (C). You will have figures here about your results as well. No exploration of results is done here. This is mainly just a summary of your results. The sub-sections will be the same as the sections in your methods section.
