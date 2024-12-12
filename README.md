@@ -113,7 +113,7 @@ We also forced each XGBClassifier to be trained over a maximum of 1000 epochs by
 
 #### Model 1 Results:
 
-After preprocessing and training our first model, we compared evaluated our model by performing k-fold cross validation, comparing training and testing mses, and creating a fitting graph for each emotion.
+After preprocessing and training our first model, we evaluated our model by performing k-fold cross validation, comparing training and testing MSEs, and creating a fitting graph for each emotion. Note that we misunderstood how to generate a fitting graph at this milestone, which we discuss in the Discussion section below. For clarity and to help explain our train of thinking, they are displayed below nonetheless.
 
 <img width="508" alt="k-fold cross validation and training/testing mse" src="https://github.com/user-attachments/assets/dc025e67-90ce-4b76-9bba-c6a6f161b7e4">
 
@@ -145,11 +145,115 @@ Below are our second model's training and testing MSEs, and the fitting graphs f
 ![download (10)](https://github.com/user-attachments/assets/605416e9-6aff-44b3-8d22-c24b82bba375)
 ![download (11)](https://github.com/user-attachments/assets/730b5168-78a9-411a-b5f9-bcce5e1b660b)
 
+#### Model 3 Results:
 
-
+After preprocessing our data by binning into 0 and 1 classes for each target, where the 1 class contains any observations where that target's value is greater than 0 in our initial dataset, we generated class distributions, which are shown below:
 ![dist2](https://github.com/user-attachments/assets/a040ffbb-5e89-4fb6-a0e8-129013a1543a)
 
+
+The following are the loss curves generated during training of each XGBClassifier with the best hyperparameters found during tuning, and below that a series of classification reports for each emotion:
 ![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
+```
+Classification Report for Joy:
+              precision    recall  f1-score   support
+
+         0.0       0.71      0.81      0.76       124
+         1.0       0.29      0.20      0.24        50
+
+    accuracy                           0.63       174
+   macro avg       0.50      0.50      0.50       174
+weighted avg       0.59      0.63      0.61       174
+
+Classification Report for Sadness:
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.91      0.86       139
+         1.0       0.25      0.11      0.16        35
+
+    accuracy                           0.75       174
+   macro avg       0.53      0.51      0.51       174
+weighted avg       0.69      0.75      0.71       174
+
+Classification Report for Disgust:
+              precision    recall  f1-score   support
+
+         0.0       0.77      0.90      0.83       135
+         1.0       0.13      0.05      0.07        39
+
+    accuracy                           0.71       174
+   macro avg       0.45      0.48      0.45       174
+weighted avg       0.63      0.71      0.66       174
+
+Classification Report for Fear:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.97      0.72        99
+         1.0       0.50      0.04      0.07        75
+
+    accuracy                           0.57       174
+   macro avg       0.54      0.50      0.40       174
+weighted avg       0.54      0.57      0.44       174
+
+Classification Report for Anger:
+              precision    recall  f1-score   support
+
+         0.0       0.77      0.80      0.78       128
+         1.0       0.37      0.33      0.34        46
+
+    accuracy                           0.67       174
+   macro avg       0.57      0.56      0.56       174
+weighted avg       0.66      0.67      0.67       174
+
+Classification Report for Surprise:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.48      0.53        86
+         1.0       0.57      0.68      0.62        88
+
+    accuracy                           0.58       174
+   macro avg       0.58      0.58      0.58       174
+weighted avg       0.58      0.58      0.58       174
+
+Classification Report for Calmness:
+              precision    recall  f1-score   support
+
+         0.0       0.47      0.23      0.31        30
+         1.0       0.86      0.94      0.90       144
+
+    accuracy                           0.82       174
+   macro avg       0.66      0.59      0.60       174
+weighted avg       0.79      0.82      0.80       174
+
+Classification Report for Confusion:
+              precision    recall  f1-score   support
+
+         0.0       0.68      0.88      0.77       112
+         1.0       0.54      0.24      0.33        62
+
+    accuracy                           0.66       174
+   macro avg       0.61      0.56      0.55       174
+weighted avg       0.63      0.66      0.61       174
+
+Classification Report for Anxiety:
+              precision    recall  f1-score   support
+
+         0.0       0.46      0.50      0.48        64
+         1.0       0.70      0.66      0.68       110
+
+    accuracy                           0.60       174
+   macro avg       0.58      0.58      0.58       174
+weighted avg       0.61      0.60      0.61       174
+
+Classification Report for Lust:
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.95      0.95       164
+         1.0       0.11      0.10      0.11        10
+
+    accuracy                           0.90       174
+   macro avg       0.53      0.53      0.53       174
+weighted avg       0.90      0.90      0.90       174
+```
 
 ### Discussion Section
 - This is where you will discuss the why, and your interpretation and your thoughy process from beginning to end. This will mimic the sections you have created in your methods section as well as new sections you feel you need to create. You can also discuss how believable your results are at each step. You can discuss any short comings. It's ok to criticize as this shows your intellectual merit, as to how you are thinking about things scientifically and how you are able to correctly scrutinize things and find short comings. In science we never really find the perfect solution, especially since we know something will probably come up int he future (i.e. donkeys) and mess everything up. If you do it's probably a unicorn or the data and model you chose are just perfect for each other!
