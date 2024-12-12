@@ -12,6 +12,23 @@ Note: A methods section does not include any why. the reason why will be in the 
 The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters (i.e. 'Luke', 'Solo', 'Jabba', 'Yoda', 'Han', 'Wookiee', 'Skywalker', 'Chewie', 'Dagobah', 'Hutt', 'Artoo', 'Threepio', 'Vader', 'Lando', 'Leia', 'Jedi', 'Ben', 'Rouge', 'droid', 'Dack'). 
 ![wordcloud](https://github.com/user-attachments/assets/b413220a-8a45-4331-9240-f61b47f81eda)
 
+It is worth noting that the vocabulary prevalent, including words like emperor, princess, admiral, fighters, etc. correspond well to the vocabulary of the science fiction / fantasy RPG game world which the model will be used for. 
+
+In terms of scale, each of the emotion categories contain integer values from 0 to 10 inclusive, and the columns are as follows from left to right:
+
+For a given observation, which is associated to a unique line of dialogue, the columns describe the following:
+## Line:
+Denotes the line number of the associated dialogue when it is spoken in its respective movie
+
+## Movie:
+Denotes the movie of origin of the associated spoken dialogue
+
+## Character:
+Denotes the character that delivered the associated line of dialogue
+
+## Dialogue:
+Contains the actual raw text of the dialogue delivered
+
 The following 10 columns represent the emotional intensity of the dialogue in terms of the following emotions: Joy, Sadness, Disgust, Fear, Anger, Surprise, Calmness, Confusion, Anxiety, and Lust. The emotional intensity is represented by an integer ranging from 0 (not intense at all) to 10 (extremely intense). The following bar graph illustrates the distribution of emotions across all observed dialogue by summing the intensity ratings for all dialogues:
 
 ![dist1](https://github.com/user-attachments/assets/d4859a44-62cf-4042-ad6c-53ce9fdebe38)
