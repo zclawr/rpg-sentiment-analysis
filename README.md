@@ -52,13 +52,34 @@ For models 1 and 2, this is the complete proprocessing pipeline. However, we add
 
 [Open the Jupyter Notebook](Milestone3.ipynb)
 
-Our first model was a multi-output regressor with a random forest regressor to predict each emotion. We trained out model on a train-test split of 0.2 and we did not tune any hyperparameters.
+Our first model was a multi-output regressor with a random forest regressor to predict each emotion. We used a train-test split of 0.2 and did not tune any hyperparameters.
+
+```
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+rf_model = MultiOutputRegressor(RandomForestRegressor(random_state=42))
+
+rf_model.fit(X_train, y_train)
+```
 
 #### Model 2:
 
 [Open the Jupyter Notebook](Milestone4.ipynb)
 
-For our second model, we used XGBoost. We pass in an XGBRegressor into our multi-output regressor instead of a random forest regressor. We use an "exact" tree method, a max_depth of 1, an L2 regularization of 100, and reduced the learning rate from the defaulted 0.3 to 0.01.
+For our second model, we used XGBoost. We pass in an XGBRegressor into our multi-output regressor instead of a random forest regressor. We used an "exact" tree method, a max_depth of 1, an L2 regularization of 100, and reduced the learning rate from the defaulted 0.3 to 0.01. Additionally, we used a train-test split of 0.2.
+
+```
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+xgb_model = MultiOutputRegressor(XGBRegressor(
+  random_state=42,
+  tree_method="exact",
+  max_depth=1,
+  reg_lambda=100,
+  learning_rate=0.01
+))
+xgb_model.fit(X_train, y_train)
+```
 
 #### Model 3:
 
@@ -84,6 +105,7 @@ model = xgb.XGBClassifier(
 grid_search = GridSearchCV(model, param_grid, scoring='recall', cv=3, n_jobs=-1)  # Use 3-fold cross-validation
 grid_search.fit(X_train_resampled, y_train_resampled, verbose=2, eval_set=[(X_train_resampled, y_train_resampled), (X_test, y_test)])
 ```
+
 We also forced each XGBClassifier to be trained over a maximum of 1000 epochs by setting the ```n_estimators=1000``` parameter. Additionally, we enabled early stopping with ```early_stopping_rounds=10```, where after 10 epochs, if neither evaluation set sees a decrease in loss, we stop the training early. Our tree method is ```hist```, which is an approximate greedy algorithm that speeds up the tree fitting. We score the search by recall, and therefore our best hyperparameters will be those which maximize recall. We use 3-fold cross validation during the hyperparameter search. From here, we train a fresh batch of XGBClassifers, one for each emotion, using these optimized hyperparameters, which are searched for per emotion, and we train these on a maximum of 5000 epochs. We also use an evaluation set on these consisting of training and testing data which is used to generate a loss curve for each of the classifiers, for which the metric used is logloss. We use these loss curves, as well as classification reports, to evaluate each model.  
 
 ### Results Section
