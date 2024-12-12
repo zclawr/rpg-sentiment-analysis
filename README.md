@@ -13,9 +13,12 @@
 
 We intend to develop an unsupervised sentiment analysis model with output classes corresponding to novel and fantastical sentiments that align with a fantasy text role-playing game world, for use in-game with non-playable character dialogue. Specifically, we intend on classifying user text input with the following classes: joy, sadness, disgust, fear, anger, surprise, calmness, confusion, anxiety, and lust. Instead of using general datasets that contain contemporary human text (e.g. the popular Twitter Sentiment Analysis dataset), we intend to use datasets containing fictional movie scripts catered specifically to the roleplay environment we want to enforce in our game. We believe that limiting our dataset in this way could enforce linguistic habits and principles within the game world, thereby increasing the player's immersion. Upon the player entering in text to address the non-playable character, the model will analyze the text for its sentiment and, based on this sentiment, select responses from a set of pre-written dialogue options.
 
-### Figures
-- Your report should include relevant figures of your choosing to help with the narration of your story, including legends (similar to a scientific paper). For reference you search machine learning and your model in google scholar for reference examples.
+### Methods Section
+- This section will include the exploration results, preprocessing steps, models chosen in the order they were executed. You should also describe the parameters chosen. Please make sub-sections for every step. i.e Data Exploration, Preprocessing, Model 1, Model 2, additional models are optional. Please note that models can be the same i.e. DNN but different versions of it if they are distinct enough. Changes can not be incremental. You can put links here to notebooks and/or code blocks using three ` in markup for displaying code. so it would look like this: ``` MY CODE BLOCK ```
 
+Note: A methods section does not include any why. the reason why will be in the discussion section. This is just a summary of your methods
+
+#### Data Exploration:
 The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters (i.e. 'Luke', 'Solo', 'Jabba', 'Yoda', 'Han', 'Wookiee', 'Skywalker', 'Chewie', 'Dagobah', 'Hutt', 'Artoo', 'Threepio', 'Vader', 'Lando', 'Leia', 'Jedi', 'Ben', 'Rouge', 'droid', 'Dack'). 
 ![wordcloud](https://github.com/user-attachments/assets/b413220a-8a45-4331-9240-f61b47f81eda)
 
@@ -28,16 +31,7 @@ From this bar graph we can gather that our data is biased towards calm dialogue,
 ![polar](https://github.com/user-attachments/assets/e31e4c1c-3d84-490c-8380-afdb744e7b8a)
 
 In the plot, a line represents an observation. We notice from the plot that calmness and confusion have a great amount of cross-over, as do surprise and confusion, which is to say that many observations have high intensities in both surprise and confusion, as well as calmness and confusion. 
-![dist2](https://github.com/user-attachments/assets/a040ffbb-5e89-4fb6-a0e8-129013a1543a)
 
-![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
-
-### Methods Section
-- This section will include the exploration results, preprocessing steps, models chosen in the order they were executed. You should also describe the parameters chosen. Please make sub-sections for every step. i.e Data Exploration, Preprocessing, Model 1, Model 2, additional models are optional. Please note that models can be the same i.e. DNN but different versions of it if they are distinct enough. Changes can not be incremental. You can put links here to notebooks and/or code blocks using three ` in markup for displaying code. so it would look like this: ``` MY CODE BLOCK ```
-
-Note: A methods section does not include any why. the reason why will be in the discussion section. This is just a summary of your methods
-
-#### Data Exploration:
 #### Preprocessing:
 The following preprocessing pipeline is used for all 3 models:
 - convert the dialogue to lowercase
@@ -59,6 +53,10 @@ For models 1 and 2, this is the complete proprocessing pipeline. However, we add
 
 ### Results Section
 - This will include the results from the methods listed above (C). You will have figures here about your results as well. No exploration of results is done here. This is mainly just a summary of your results. The sub-sections will be the same as the sections in your methods section.
+
+![dist2](https://github.com/user-attachments/assets/a040ffbb-5e89-4fb6-a0e8-129013a1543a)
+
+![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
 
 ### Discussion Section
 - This is where you will discuss the why, and your interpretation and your thoughy process from beginning to end. This will mimic the sections you have created in your methods section as well as new sections you feel you need to create. You can also discuss how believable your results are at each step. You can discuss any short comings. It's ok to criticize as this shows your intellectual merit, as to how you are thinking about things scientifically and how you are able to correctly scrutinize things and find short comings. In science we never really find the perfect solution, especially since we know something will probably come up int he future (i.e. donkeys) and mess everything up. If you do it's probably a unicorn or the data and model you chose are just perfect for each other!
