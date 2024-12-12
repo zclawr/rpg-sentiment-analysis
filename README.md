@@ -131,9 +131,11 @@ We also forced each XGBClassifier to be trained over a maximum of 1000 epochs by
 After preprocessing and training our first model, we evaluated our model by performing k-fold cross validation, comparing training and testing MSEs, and creating a fitting graph for each emotion. Note that we misunderstood how to generate a fitting graph at this milestone, which we discuss in the Discussion section below. For clarity and to help explain our train of thinking, they are displayed below nonetheless.
 
 Figure 1
+
 <img width="508" alt="k-fold cross validation and training/testing mse" src="https://github.com/user-attachments/assets/dc025e67-90ce-4b76-9bba-c6a6f161b7e4">
 
 Figure 2(a-j)
+
 ![joy](https://github.com/user-attachments/assets/8c341efd-e669-4c05-8c7d-858270e3ac95)
 ![sadness](https://github.com/user-attachments/assets/b386ec29-c218-4751-a66a-dae8b9488575)
 ![disgust](https://github.com/user-attachments/assets/19639c56-1d8a-46e8-9011-47fd0c7c9a22)
@@ -150,9 +152,11 @@ Figure 2(a-j)
 Below are our second model's training and testing MSEs, and the fitting graphs for each emotion.
 
 Figure 3
+
 <img width="470" alt="Screenshot 2024-12-01 at 8 06 31 PM" src="https://github.com/user-attachments/assets/220e8c16-7809-4c35-9abb-8a7e25231e00">
 
 Figure 4(a-j)
+
 ![plots](https://github.com/user-attachments/assets/756dbd4f-34f2-4494-898f-5ee17c3baf08)
 ![download (3)](https://github.com/user-attachments/assets/bdfeeffe-59d5-4ca3-a80d-84e1580f8ab6)
 ![download (4)](https://github.com/user-attachments/assets/075441d3-0086-489f-ba11-7c412af71379)
@@ -169,12 +173,14 @@ Figure 4(a-j)
 After preprocessing our data by binning into 0 and 1 classes for each target, where the 1 class contains any observations where that target's value is greater than 0 in our initial dataset, we generated class distributions, which are shown below:
 
 Figure 5
+
 ![dist2](https://github.com/user-attachments/assets/a040ffbb-5e89-4fb6-a0e8-129013a1543a)
 
 
 The following are the classification reports for each emotion generated after training each emotion's XGBClassifier with the best hyperparameters found during tuning. Below the classification reports are the loss curves for each classifier generated during training.
 
 Figure 6(a-j)
+
 ```
 Classification Report for Joy:
               precision    recall  f1-score   support
@@ -278,6 +284,7 @@ weighted avg       0.90      0.90      0.90       174
 ```
 
 Figure 7
+
 ![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
 
 
