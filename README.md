@@ -4,11 +4,16 @@
 We intend to develop an unsupervised sentiment analysis model with output classes corresponding to novel and fantastical sentiments that align with a fantasy text role-playing game world, for use in-game with non-playable character dialogue. Specifically, we intend on classifying user text input with the following classes: joy, sadness, disgust, fear, anger, surprise, calmness, confusion, anxiety, and lust. Instead of using general datasets that contain contemporary human text (e.g. the popular Twitter Sentiment Analysis dataset), we intend to use datasets containing fictional movie scripts catered specifically to the roleplay environment we want to enforce in our game. We believe that limiting our dataset in this way could enforce linguistic habits and principles within the game world, thereby increasing the player's immersion. Upon the player entering in text to address the non-playable character, the model will analyze the text for its sentiment and, based on this sentiment, select responses from a set of pre-written dialogue options.
 
 ### Methods Section
-- This section will include the exploration results, preprocessing steps, models chosen in the order they were executed. You should also describe the parameters chosen. Please make sub-sections for every step. i.e Data Exploration, Preprocessing, Model 1, Model 2, additional models are optional. Please note that models can be the same i.e. DNN but different versions of it if they are distinct enough. Changes can not be incremental. You can put links here to notebooks and/or code blocks using three ` in markup for displaying code. so it would look like this: ``` MY CODE BLOCK ```
-
-Note: A methods section does not include any why. the reason why will be in the discussion section. This is just a summary of your methods
 
 #### Data Exploration:
+The dialogue that comprises our dataset is sourced from the following:
+
+https://www.kaggle.com/datasets/xvivancos/star-wars-movie-scripts
+
+The dataset contains the scripts for Star Wars episodes 4-6, with 'character' and 'dialogue' columns, where each observation is a line delivered by a character in one of the films. The dataset is unlabeled for sentiment analysis.
+
+Note that the data we are using in our Jupyter notebook and in the following exploration comes from ```manual-labels.csv```, which can be found in the root folder of this repo. Our labeled data consists of roughly 900 observations. In terms of missing data, please note that we have roughly 1400 lines of unlabeled dialogue remaining, of which we could not hand-label during the course of the project. Thus, the 900 observations we are exploring here is simply a subset of the datasets we are using. Of these labeled observations, each observation has a valid integer from 0-10 for each of the 10 emotion categories, and therefore there is no missing data within these 586 observations. The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters.
+
 The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters (i.e. 'Luke', 'Solo', 'Jabba', 'Yoda', 'Han', 'Wookiee', 'Skywalker', 'Chewie', 'Dagobah', 'Hutt', 'Artoo', 'Threepio', 'Vader', 'Lando', 'Leia', 'Jedi', 'Ben', 'Rouge', 'droid', 'Dack'). 
 ![wordcloud](https://github.com/user-attachments/assets/b413220a-8a45-4331-9240-f61b47f81eda)
 
@@ -17,16 +22,16 @@ It is worth noting that the vocabulary prevalent, including words like emperor, 
 In terms of scale, each of the emotion categories contain integer values from 0 to 10 inclusive, and the columns are as follows from left to right:
 
 For a given observation, which is associated to a unique line of dialogue, the columns describe the following:
-## Line:
+##### Line:
 Denotes the line number of the associated dialogue when it is spoken in its respective movie
 
-## Movie:
+##### Movie:
 Denotes the movie of origin of the associated spoken dialogue
 
-## Character:
+##### Character:
 Denotes the character that delivered the associated line of dialogue
 
-## Dialogue:
+##### Dialogue:
 Contains the actual raw text of the dialogue delivered
 
 The following 10 columns represent the emotional intensity of the dialogue in terms of the following emotions: Joy, Sadness, Disgust, Fear, Anger, Surprise, Calmness, Confusion, Anxiety, and Lust. The emotional intensity is represented by an integer ranging from 0 (not intense at all) to 10 (extremely intense). The following bar graph illustrates the distribution of emotions across all observed dialogue by summing the intensity ratings for all dialogues:
