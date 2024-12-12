@@ -3,7 +3,11 @@
 
 We intend to develop an unsupervised sentiment analysis model with output classes corresponding to novel and fantastical sentiments that align with a fantasy text role-playing game world, for use in-game with non-playable character dialogue. Specifically, we intend on classifying user text input with the following classes: joy, sadness, disgust, fear, anger, surprise, calmness, confusion, anxiety, and lust. Instead of using general datasets that contain contemporary human text (e.g. the popular Twitter Sentiment Analysis dataset), we intend to use datasets containing fictional movie scripts catered specifically to the roleplay environment we want to enforce in our game. We believe that limiting our dataset in this way could enforce linguistic habits and principles within the game world, thereby increasing the player's immersion. Upon the player entering in text to address the non-playable character, the model will analyze the text for its sentiment and, based on this sentiment, select responses from a set of pre-written dialogue options.
 
-### Methods Section
+A demo for our sentiment analysis model ([organ trail](https://organregistry.org/organtrail)) is live on our website [organregistry.org](https://organregistry.org/)
+
+![9dhzv4](https://github.com/user-attachments/assets/1069ae75-0c25-4eb9-9b9c-f4142651e4cb)
+
+### Methods
 
 #### Data Exploration:
 The dialogue that comprises our dataset is sourced from the following:
