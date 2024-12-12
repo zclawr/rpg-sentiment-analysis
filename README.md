@@ -16,7 +16,7 @@ We intend to develop an unsupervised sentiment analysis model with output classe
 ### Figures
 - Your report should include relevant figures of your choosing to help with the narration of your story, including legends (similar to a scientific paper). For reference you search machine learning and your model in google scholar for reference examples.
 
-The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters. 
+The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters (i.e. 'Luke', 'Solo', 'Jabba', 'Yoda', 'Han', 'Wookiee', 'Skywalker', 'Chewie', 'Dagobah', 'Hutt', 'Artoo', 'Threepio', 'Vader', 'Lando', 'Leia', 'Jedi', 'Ben', 'Rouge', 'droid', 'Dack'). 
 ![wordcloud](https://github.com/user-attachments/assets/b413220a-8a45-4331-9240-f61b47f81eda)
 
 The following 10 columns represent the emotional intensity of the dialogue in terms of the following emotions: Joy, Sadness, Disgust, Fear, Anger, Surprise, Calmness, Confusion, Anxiety, and Lust. The emotional intensity is represented by an integer ranging from 0 (not intense at all) to 10 (extremely intense). The following bar graph illustrates the distribution of emotions across all observed dialogue by summing the intensity ratings for all dialogues:
@@ -39,6 +39,20 @@ Note: A methods section does not include any why. the reason why will be in the 
 
 #### Data Exploration:
 #### Preprocessing:
+The following preprocessing pipeline is used for all 3 models:
+- convert the dialogue to lowercase
+- pass the dialogue into a tokenizer to get an array of "tokens", which are the individual strings present in the dialogue
+- lemmatize each token, standardizing the tense and plurality of the token (i.e. "feet" -> "foot" and "killed" -> "kill")
+- remove "stop words", which are common words that add no meaning to sentiment (i.e. "and", "but", "is")
+- convert raw text into numerical information via feature extraction (using feature extraction techinques such as "bag of words" and "TF-IDF")
+  - in our case, we would be using TF-IDF. TF-IDF weighs the importance of a given word relative to the body of text.
+- So, we would be training our model with our X_train and X_test being the outputs of the TF-IDF vectorizer, and our y_train and y_test are the respective values for the 10 emotions.
+- apply min-max normalization to each feature so that our output is a confidence level between 0 and 1.
+For models 1 and 2, this is the complete proprocessing pipeline. However, we add one more preprocessing step for model 3:
+- Transform the values of the emotion rates
+  - For each row and for each emotion in some row, if the value of an emotion's rating is greater than 0, set the value equal to 1. Otherwise, set the value equal to 0.
+- After splitting the dataframe into X_train, X_test, y_train, y_test, apply oversampling to X_train, y_train using SMOTE (to mitigate data imbalance)
+
 #### Model 1:
 #### Model 2:
 
