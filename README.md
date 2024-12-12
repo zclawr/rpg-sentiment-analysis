@@ -111,7 +111,39 @@ We also forced each XGBClassifier to be trained over a maximum of 1000 epochs by
 ### Results Section
 - This will include the results from the methods listed above (C). You will have figures here about your results as well. No exploration of results is done here. This is mainly just a summary of your results. The sub-sections will be the same as the sections in your methods section.
 
-For our second model, we used XGBoost for its efficiency and hyperparameter tuning capabilities in an effort to combat overfitting. The sparseness of our dataset was the main motivator for our hyperparameter values. To emphasize accuracy rather than speed, we used an "exact" tree method. Additionally, we specified a max_depth of 1, introduced an L2 regularization of 100, and reduced the learning rate from default 0.3 to 0.01 in order to mitigate overfitting.
+#### Model 1 Results:
+
+After preprocessing and training our first model, we compared evaluated our model by performing k-fold cross validation, comparing training and testing mses, and creating a fitting graph for each emotion.
+
+<img width="508" alt="k-fold cross validation and training/testing mse" src="https://github.com/user-attachments/assets/dc025e67-90ce-4b76-9bba-c6a6f161b7e4">
+
+![joy](https://github.com/user-attachments/assets/8c341efd-e669-4c05-8c7d-858270e3ac95)
+![sadness](https://github.com/user-attachments/assets/b386ec29-c218-4751-a66a-dae8b9488575)
+![disgust](https://github.com/user-attachments/assets/19639c56-1d8a-46e8-9011-47fd0c7c9a22)
+![fear](https://github.com/user-attachments/assets/48ef9086-827f-4a8c-805c-6548339d491b)
+![anger](https://github.com/user-attachments/assets/a3bf2b7e-367b-4746-8e6e-964f57cd0864)
+![surprise](https://github.com/user-attachments/assets/e0ca025c-d96c-499c-ac77-4b2e594b7ee7)
+![calmness](https://github.com/user-attachments/assets/087963ce-dde6-42f4-baa9-9188902675e1)
+![confusion](https://github.com/user-attachments/assets/c26fff43-da71-48dd-ac26-9a6d68c6f17b)
+![anxiety](https://github.com/user-attachments/assets/d91dfdfa-8f7c-4961-8eda-02b62d3b5d0a)
+![lust](https://github.com/user-attachments/assets/f966ed35-7943-4f7c-bb94-7b84a25ad963)
+
+#### Model 2 Results:
+
+Below are our second model's training and testing MSEs, and the fitting graphs for each emotion.
+
+<img width="470" alt="Screenshot 2024-12-01 at 8 06 31 PM" src="https://github.com/user-attachments/assets/220e8c16-7809-4c35-9abb-8a7e25231e00">
+
+![plots](https://github.com/user-attachments/assets/756dbd4f-34f2-4494-898f-5ee17c3baf08)
+![download (3)](https://github.com/user-attachments/assets/bdfeeffe-59d5-4ca3-a80d-84e1580f8ab6)
+![download (4)](https://github.com/user-attachments/assets/075441d3-0086-489f-ba11-7c412af71379)
+![download (5)](https://github.com/user-attachments/assets/8929f293-3c3c-40d6-ab5a-cf44b3684e22)
+![download (6)](https://github.com/user-attachments/assets/98235c0f-a656-4270-80d3-15311cc87f26)
+![download (7)](https://github.com/user-attachments/assets/a2d5dc1e-202c-49b3-84f5-fd018f2cbc4b)
+![download (8)](https://github.com/user-attachments/assets/13bc2bfa-732d-45b4-a64f-2ef6a56b3598)
+![download (9)](https://github.com/user-attachments/assets/84d4e4b9-af54-4e28-8e04-212c7017acca)
+![download (10)](https://github.com/user-attachments/assets/605416e9-6aff-44b3-8d22-c24b82bba375)
+![download (11)](https://github.com/user-attachments/assets/730b5168-78a9-411a-b5f9-bcce5e1b660b)
 
 
 
@@ -121,6 +153,8 @@ For our second model, we used XGBoost for its efficiency and hyperparameter tuni
 
 ### Discussion Section
 - This is where you will discuss the why, and your interpretation and your thoughy process from beginning to end. This will mimic the sections you have created in your methods section as well as new sections you feel you need to create. You can also discuss how believable your results are at each step. You can discuss any short comings. It's ok to criticize as this shows your intellectual merit, as to how you are thinking about things scientifically and how you are able to correctly scrutinize things and find short comings. In science we never really find the perfect solution, especially since we know something will probably come up int he future (i.e. donkeys) and mess everything up. If you do it's probably a unicorn or the data and model you chose are just perfect for each other!
+
+For our second model, we used XGBoost for its efficiency and hyperparameter tuning capabilities in an effort to combat overfitting. The sparseness of our dataset was the main motivator for our hyperparameter values. To emphasize accuracy rather than speed, we used an "exact" tree method. Additionally, we specified a max_depth of 1, introduced an L2 regularization of 100, and reduced the learning rate from default 0.3 to 0.01 in order to mitigate overfitting.
 
 ### Conclusion
 - This is where you do a mind dump on your opinions and possible future directions. Basically what you wish you could have done differently. Here you close with final thoughts.
