@@ -52,22 +52,26 @@ For models 1 and 2, this is the complete proprocessing pipeline. However, we add
 
 [Open the Jupyter Notebook](Milestone3.ipynb)
 
-We initally decided to treat the data as a regression problem instead of a classification problem. We sought to output the strength of an emotion in a sentence (i.e. a confidence level) rather than a binary true or false output, so we opted for a random forest regressor to predict each emotion. We trained out model on a train-test split of 0.2 and we did not tune any hyperparameters.
+Our first model was a multi-output regressor with a random forest regressor to predict each emotion. We trained out model on a train-test split of 0.2 and we did not tune any hyperparameters.
 
 #### Model 2:
 
 [Open the Jupyter Notebook](Milestone4.ipynb)
 
-For our second model, we used XGBoost for its efficiency and hyperparameter tuning capabilities in an effort to combat overfitting. The sparseness of our dataset was the main motivator for our hyperparameter values. To emphasize accuracy rather than speed, we used an "exact" tree method. Additionally, we specified a max_depth of 1, introduced an L2 regularization of 100, and reduced the learning rate from default 0.3 to 0.01 in order to mitigate overfitting.
+For our second model, we used XGBoost. We pass in an XGBRegressor into our multi-output regressor instead of a random forest regressor. We use an "exact" tree method, a max_depth of 1, an L2 regularization of 100, and reduced the learning rate from the defaulted 0.3 to 0.01.
 
 #### Model 3:
 
 [Open the Jupyter Notebook](Milestone5.ipynb)
 
+For our third model, we create an XGBClassifier model for each emotion. 
+
 
 
 ### Results Section
 - This will include the results from the methods listed above (C). You will have figures here about your results as well. No exploration of results is done here. This is mainly just a summary of your results. The sub-sections will be the same as the sections in your methods section.
+
+For our second model, we used XGBoost for its efficiency and hyperparameter tuning capabilities in an effort to combat overfitting. The sparseness of our dataset was the main motivator for our hyperparameter values. To emphasize accuracy rather than speed, we used an "exact" tree method. Additionally, we specified a max_depth of 1, introduced an L2 regularization of 100, and reduced the learning rate from default 0.3 to 0.01 in order to mitigate overfitting.
 
 
 
