@@ -17,17 +17,20 @@ We intend to develop an unsupervised sentiment analysis model with output classe
 - Your report should include relevant figures of your choosing to help with the narration of your story, including legends (similar to a scientific paper). For reference you search machine learning and your model in google scholar for reference examples.
 
 The word cloud below illustrates the frequency of words from the labeled observations, with common stop words removed as well as proper nouns that relate to Star Wars-specific lingo and characters. 
-![word_cloud](https://github.com/user-attachments/assets/e9e8929a-cbb0-4c2d-affd-db70ee151d46)
+![wordcloud](https://github.com/user-attachments/assets/b413220a-8a45-4331-9240-f61b47f81eda)
 
 The following 10 columns represent the emotional intensity of the dialogue in terms of the following emotions: Joy, Sadness, Disgust, Fear, Anger, Surprise, Calmness, Confusion, Anxiety, and Lust. The emotional intensity is represented by an integer ranging from 0 (not intense at all) to 10 (extremely intense). The following bar graph illustrates the distribution of emotions across all observed dialogue by summing the intensity ratings for all dialogues:
 
-![emotion_sums](https://github.com/user-attachments/assets/0763326a-6d35-4814-9e99-94872c111aef)
+![dist1](https://github.com/user-attachments/assets/d4859a44-62cf-4042-ad6c-53ce9fdebe38)
 
 From this bar graph we can gather that our data is biased towards calm dialogue, which makes sense in the context of any large body of text; most dialogue will not be explosively emotional and will instead be calm. Furthermore, we notice a prevalence of anxiety, surprise, and fear, which may correlate to the prevalence of intense action and battle scenes in the Star Wars films surveyed in our dataset. It is worth noting that this seems ideal for the science fiction / fantasy RPG world which the model will be used for, as a similar tension will pervade the game atmosphere. The following polar plot illustrates the distribution and intensity of each observation for the emotion categories:
 
-![emotion_polar](https://github.com/user-attachments/assets/d06f7c89-6966-4e07-96cc-6eb03b6af36f)
+![polar](https://github.com/user-attachments/assets/e31e4c1c-3d84-490c-8380-afdb744e7b8a)
 
 In the plot, a line represents an observation. We notice from the plot that calmness and confusion have a great amount of cross-over, as do surprise and confusion, which is to say that many observations have high intensities in both surprise and confusion, as well as calmness and confusion. 
+![dist2](https://github.com/user-attachments/assets/a040ffbb-5e89-4fb6-a0e8-129013a1543a)
+
+![loss_curves](https://github.com/user-attachments/assets/1b0b8c37-c93f-4c3f-9501-630092a2398a)
 
 ### Methods Section
 - This section will include the exploration results, preprocessing steps, models chosen in the order they were executed. You should also describe the parameters chosen. Please make sub-sections for every step. i.e Data Exploration, Preprocessing, Model 1, Model 2, additional models are optional. Please note that models can be the same i.e. DNN but different versions of it if they are distinct enough. Changes can not be incremental. You can put links here to notebooks and/or code blocks using three ` in markup for displaying code. so it would look like this: ``` MY CODE BLOCK ```
