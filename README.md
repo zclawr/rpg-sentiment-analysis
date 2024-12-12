@@ -48,6 +48,7 @@ The following preprocessing pipeline is used for all 3 models:
   - in our case, we would be using TF-IDF. TF-IDF weighs the importance of a given word relative to the body of text.
 - So, we would be training our model with our X_train and X_test being the outputs of the TF-IDF vectorizer, and our y_train and y_test are the respective values for the 10 emotions.
 - apply min-max normalization to each feature so that our output is a confidence level between 0 and 1.
+
 For models 1 and 2, this is the complete proprocessing pipeline. However, we add one more preprocessing step for model 3:
 - Transform the values of the emotion rates
   - For each row and for each emotion in some row, if the value of an emotion's rating is greater than 0, set the value equal to 1. Otherwise, set the value equal to 0.
